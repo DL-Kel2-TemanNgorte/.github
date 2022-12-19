@@ -23,6 +23,7 @@ Pada proses ini, data akan digunakan dan dipelajari representasinya oleh model y
 | 2.  | Loss           | Sparse Categorical Crossentropy |
 | 3.  | Epochs         | 100                             |
 | 4.  | Batch Size     | 128                             |
+
 Hasil dari proses pelatihan model akan dibahas pada tahap evaluasi.
 
 #### 2. Testing
