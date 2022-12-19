@@ -10,11 +10,14 @@ Pada tahap ini, seluruh *dataset* yang digunakan akan dipecah (*split*) menjadi 
 ##### 1.2 Pembuatan Arsitektur Model
 Pada tahap ini, dilakukan pembuatan arsitektur model LSTM dengan metode *sequential* menggunakan *library* TensorFlow Keras. Berikut merupakan arsitektur dari model LSTM yang dibuat.
 
-| [Arsitektur LSTM V1](https://raw.githubusercontent.com/DL-Kel2-TemanNgorte/Machine-Learning/main/assets/model_plot_lstm16.png?token=GHSAT0AAAAAAB27IYAFMMLXPXIDYYHIMKMIY5ATTGA) |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+Versi 1
 
-| [Arsitektur LSTM V2](https://raw.githubusercontent.com/DL-Kel2-TemanNgorte/Machine-Learning/main/assets/model_plot_lstm18.png?token=GHSAT0AAAAAAB27IYAFVN7KZSFOTSI2K5VMY5ATV3A) |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+![model_plot_lstm16](https://user-images.githubusercontent.com/76557114/208538472-67ab6b1d-16ee-4da0-8f54-6c3f1e162cca.png)
+
+Versi 2
+
+![model_plot_lstm18](https://user-images.githubusercontent.com/76557114/208538594-0a5d6a4f-e8b3-4b0f-9a2f-cbde9a022deb.png)
+
 
 Gambar di atas merupakan arsitektur dari model LSTM yang telah dibuat. Terdapat dua versi model LSTM yang dibuat. Versi pertama menggunakan data lama dengan 16 kelas dan versi kedua menggunakan data baru dengan 18 kelas.
 Untuk versi pertama, arsitekturnya terdiri dari lapisan input yang berukuran 150 kolom. Input tersebut kemudian mengirimkan data pada lapisan ***Embedding*** dengan jumlah *vocabulary* maksimum sebesar 3000 dan dimensi *embedding* berukuran 150. Hasil *embedding* kemudian akan dikirimkan pada lapisan ***SpatialDropout1D***. Setelah itu, data akan dikirimkan kepada lapisan LSTM pertama dengan jumlah unit sebesar 64. Lapisan berikutnya adalah lapisan LSTM kedua (*stacked*) dengan jumlah unit yang sama yaitu 64. Setelah data melalui lapisan LSTM, kemudian akan dikirim pada lapisan ***Dense*** (neuron biasa) dengan jumlah unit sebesar 64 dan *activation function* ReLu. Hasil dari lapisan ini kemudian akan dikirimkan pada lapisan terakhir (*output layer*) dengan total *output* sebesar 16.
