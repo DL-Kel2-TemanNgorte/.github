@@ -12,22 +12,22 @@ Terdapat tiga bagian gates yang hanya digunakan pada algoritma Long Short-Term M
 #### Forget Gate
 Bagian pertama yang dinamakan forget gates merupakan bagian yang akan menentukan apakah suatu informasi akan digunakan kembali atau diingat atau dilupakan
 
-![Alt text](https://i.stack.imgur.com/PB51i.png)
+![Alt text](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-f.png)
 
 #### Input Gate
 Bagian kedua yaitu input gate yang berfungsi untuk mempelajari informasi baru yang diinputkan pada bagian ini
 
-![Alt text](https://i.stack.imgur.com/AuQlH.png)
+![Alt text](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-i.png)
 
 #### Output Gate
 Bagian ketiga yaitu output gate, yaitu bagian yang akan memberikan informasi yang telah diperbarui pada timestamp saat itu ke timestamp berikutnya
 
-![Alt text](https://i0.wp.com/neptune.ai/wp-content/uploads/2022/10/LSTM-network-4.png?resize=605%2C411&ssl=1)
+![Alt text](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-o.png)
 
 ### LSTM untuk Text Classification
   Terdapat banyak algoritma lainnya yang dapat digunakan untuk klasifikasi text seperti SVM atau Neural Network pada umumnya. Akan tetapi sebagian besar algoritma tersebut tidak memberikan hasil yang baik jika dibandingkan dengan LSTM. Hal tersebut karena LSTM mampu untuk mengingat informasi penting dengan efektif.
 
-  Dengan menggunakan LSTM kita dapat menggunakan beberapa string kata untuk mengetahui kelas yang menjadi tempatnya. Hal tersebut sangat membantu saat bekerja dengan natural language processing. Jika kita menggunakan lapisan penyematan dan penyandian yang sesuai di LSTM, model akan dapat mengetahui arti sebenarnya dari string input dan akan memberikan kelas output yang paling akurat. 
+  Dengan menggunakan LSTM kita dapat menggunakan beberapa string kata untuk mengetahui kelas yang menjadi tempatnya. Hal tersebut sangat membantu dalam proses pengerjaan *natural language processing*. Jika kita menggunakan lapisan penyematan dan penyandian yang sesuai di LSTM, model akan dapat mengetahui arti sebenarnya dari *string* input dan akan memberikan kelas output yang paling akurat. 
 
 
 ---
