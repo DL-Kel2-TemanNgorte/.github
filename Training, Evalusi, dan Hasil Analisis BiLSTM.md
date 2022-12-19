@@ -1,6 +1,6 @@
 ## BiLSTM
 ---
-Proses pembuatan model BiLSTM (*Bidirectional Long-Short Term Memory*) dilakukan dalam 3 tahap, yaitu *training*, *testing*, dan *evaluation*, Berikut merupakan penjelasan masing-masing tahap.
+Proses pembuatan model BiLSTM (*Bidirectional Long-Short Term Memory*) dilakukan dalam 3 tahap, yaitu *training* dan *evaluation*. Berikut merupakan penjelasan masing-masing tahap.
 #### 1. Training
 Pada tahap *training*, beberapa proses yang dilakukan antara lain **persiapan data latih**, **pembuatan arsitektur model**, **pelatihan model**.
 
