@@ -25,6 +25,7 @@ Untuk versi kedua, susunan arsitekturnya hampir sama dengan versi kedua, namun j
 
 ##### 1.3 Pelatihan Model
 Pada tahap ini, data akan dipelajari representasinya oleh model yang telah dibuat. Pada tahap ini, digunakan dua buah *subset* data yaitu data *train* dan data *validation*. Data *train* digunakan untuk pelatihan model sementara data *validation* digunakan untuk mengukur performa model pada data yang belum pernah dilihat. Berikut merupakan konfigurasi dari tahap pelatihan model LSTM.
+
 Versi 1
 | No. | Hyperparameter | Nilai                           |
 |-----|----------------|---------------------------------|
