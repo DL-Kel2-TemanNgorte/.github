@@ -10,7 +10,7 @@ Pada proses persiapan data latih, seluruh *dataset* yang digunakan akan dipecah 
 ##### 1.2 Pembuatan Arsitektur Model
 Pada proses ini, dilakukan pembuatan arsitektur model BiLSTM dengan metode *sequential* menggunakan *library* Keras. Berikut merupakan arsitektur model BiLSTM yang dibuat.
 
-| ![Arsitektur BiLSTM](https://raw.githubusercontent.com/DL-Kel2-TemanNgorte/Machine-Learning/main/assets/arsitektur%20BiLSTM.png?token=GHSAT0AAAAAAB3GYHOKZQT5EDLUUQMRZWG4Y5ASHNA) |
+| ![Arsitektur BiLSTM](https://i.ibb.co/m04Sxdr/arsitektur-Bi-LSTM.png) |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 Gambar di atas merupakan arsitektur dari model BiLSTM yang telah dibuat. Arsitektur pertama yaitu lapisan input yang berukuran 50 kolom. Input tersebut kemudian mengirimkan data pada lapisan ***Embedding*** dengan *vocabulary* maksimum berjumlah 2500 dan dimensi *embedding* berukuran 50. Hasil *embedding* kemudian akan dikirimkan pada lapisan ***SpatialDropout1D***. Setelah itu, data akan dikirimkan kepada lapisan BiLSTM pertama dengan jumlah unit sebesar 128 dan *activation function* ReLu. Lapisan berikutnya adalah lapisan BiLSTM kedua (*stacked*) dengan jumlah unit yang sama yaitu 128. Setelah data melalui lapisan BiLSTM, kemudian akan dikirim pada lapisan ***Dense*** (neuron biasa) dengan jumlah unit sebesar 64. Hasil dari lapisan ini kemudian akan dikirimkan pada lapisan terakhir (*output layer*) dengan total *output* sebesar 18.
