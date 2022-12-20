@@ -6,7 +6,7 @@ Algoritma LSTM atau *Long Short Term Memory* merupakan bentuk pengembangan dari 
 Berdasarkan penelitian yang dilakukan oleh **Hochreiter dan Schmidhuber** di tahun 1997 yang kemudian menjadi cikal bakal arsitektur LSTM modern, LSTM terbukti dapat menyelesaikan permasalahan yang cukup kompleks dan belum atau kurang dapat diselesaikan oleh algoritma *reccurent* lainnya.
 
 ### Gates Pada LSTM 
-Terdapat tiga bagian gates yang hanya digunakan pada algoritma *Long Short-Term Memory*, dimana masing-masing memiliki fungsinya tersendiri. Penjelasan mengenai gates tersebut adalah sebagai berikut. 
+Terdapat state serta tiga bagian gates yang hanya digunakan pada algoritma *Long Short-Term Memory*, dimana masing-masing memiliki fungsinya tersendiri. Penjelasan mengenai gates dan state tersebut adalah sebagai berikut. 
 
 #### Cell State
 *cell state* adalah kunci dari model LSTM. Gates yang terhubung ke cell state akan memberikan informasi yang akan diteruskan oleh *cell state* ini sepanjang arsitektur LSTM tersebut berjalan hingga menghasilkan *output*
