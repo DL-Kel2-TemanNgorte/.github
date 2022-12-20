@@ -9,11 +9,15 @@ Bidirectional LSTM memanfaatkan informasi sebelumnya dan informasi setelahnya de
 
 Gambar diatas merupakan arsitektur hidden layer BiLSTM. Setiap hidden layer keluaran unit pada layer bawah dan atas disatukan hingga membentuk nilai fitur yang lebih panjang dari pada LSTM biasa. Karena nilai fitur pada BiLSTM lebih panjang , maka informasi yang akan diproses pada proses selanjutnya yaitu feed forward neural akan mengklasifikasikan dengan lebih detail.
 
-![Alt text](https://previews.dropbox.com/p/thumb/ABywJH-PwlZHtIG9o9X-jVOD-zNbu8GC1Xfz5el265I3cpGJUhXkvMofoTN1oOBY8pTKwqvpMW5EuV0X9SCyo36cQRCBURYlelVGCn7WF1CPUYiFfq48JClJIelhA0fkCuE1hIEdKNS68F2gIHvK93lflloYf_v3fwSietP_FL3BC9SDnMZ80mB95-UwWBfTZ4ywCuzkXa6zlp1dzeXL7PPfcEd_S22_0vVd5W7fwLhcbpOi312TYI2hp_ciE3s_ZNzygJ3aK8Wqyzl9pkv2OaBkmay_FbVYBYmbvEzO8ptfZLQCV-pion43J-OU0KWZMIaR9uKiY9at62eh6fPebdF4HqYzEt4WQiJRRLJnLWtFha91F32tvWbc3S8uU-KWOkk/p.png)
+![arsitektur model bilstm](https://user-images.githubusercontent.com/62200309/208637445-1611a5dc-8940-4165-a90a-9a99c171289e.png)
 
 Gambar diatas adalah arsitektur dari BiLSTM yang merupakan gabungan dari dua LSTM arah maju dan arah mundur. Terdapat hidden layer juga yang terhubung dari LSTM maju dan LSTM mundur. 
 
 Dengan adanya hidden layer dua arah ini yang saling berlawanan maka model dapat memahami data dari depan dan belakang, sehingga proses pelatihan akan lebih memahami data pada time series. BiLSTM akan sangat berguna dalam hal pelatihan sekuensial apabila bisa mengakses dari informasi sebelum dan
 sesudahnya. Jika LSTM hanya bisa mengakses informasi dari masa lalu saja, tetapi informasi masa mendatang tidak diketahui. BiLSTM bisa menjadi solusi untuk memecahkan masalah tersebut.
 
+## Arsitektur Aplikasi Teman Ngorte
 
+![Arsitektur Aplikasi Teman Ngorte](https://user-images.githubusercontent.com/62200309/208637731-815af47e-0080-44d6-a7cc-32b6f845ff9a.png)
+
+Arsitektur dari chatbot Teman Ngorte terdiri dari 2 bagian yaitu Front End dan Backend. Pada bagian Fron End menggunakan framework React.js dan juga tailwind CSS untuk membuat user interface dari aplikasi chatbot. Bagian Front End dari chatbot ini kemudian dideploy di platform Vercel agar bisa diakses melalui internet. Pada bagian Back End menggunakan framework Flask dan bahasa pemrograman python untuk memproses segala logic dibelakang layar aplikasi chatbot teman ngorte dan membuat API yang digunakan untuk komunikasi data antara Front End dan Back End. Database yang digunakan pada aplikasi chatbot teman ngorte yaitu MySQL Database yang dideploy di pltform Railway. Aplikasi chatbot teman ngorte ini menggunakan model deep learning BiLSTM yang di buat menggunakan library Tensorflow, dimana model ini digunakan untuk memproses respons yang diberikan oleh chatbot terhadap chat atau pertanyaan dari pengguna.  Bagian Back End ini dideploy menggunakan platform cloud dari Google yang Bernama Google Cloud Platform dengan layanan Cloud Run dan Docker untuk mendeploy aplikasi Back End dari chatbot Temen Ngorte. Komunikasi antara bagian Front End dengan Back End menggunakan JSON API, dimana Bagian Front End mengirim HTTP Request ke bagian Back End, lalu pada  bagian Back End akan memproses HTTP Request tersebut dan mengirim hasil prosesnya dalam bentuk JSON API ke bagian Front End.
