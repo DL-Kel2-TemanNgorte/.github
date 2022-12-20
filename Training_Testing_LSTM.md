@@ -24,3 +24,5 @@ Pada tahap ini, data akan dipelajari representasinya oleh model yang telah dibua
 | 2.  | Loss           | Categorical Crossentropy        |
 | 3.  | Epochs         | 150                             |
 | 4.  | Batch Size     | 128                             |
+
+Hasil dari proses pelatihan model akan dibahas pada tahap evaluasi.
