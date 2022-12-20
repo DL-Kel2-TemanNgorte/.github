@@ -19,7 +19,7 @@ Model pre-trained dilatih menggunakan *masked language modelling* (MLM) dan next
 
 ## **Arsitektur Model**
 
-Model diimplementasikan menggunakan IndoBert dari HuggingFace ([https://huggingface.co/](https://huggingface.co/)). Contoh penggunaan model dapat dilihat pada gambar berikut.
+Model diimplementasikan menggunakan IndoBert dari [HuggingFace](https://huggingface.co/). Contoh penggunaan model dapat dilihat pada source code berikut.
 
 ```python
 from transformers import BertTokenizer, AutoModel
