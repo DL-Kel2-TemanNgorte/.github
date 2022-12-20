@@ -31,14 +31,14 @@
     1. [LSTM](#lstm)
        1. [Analisis Model LSTM](#analisis-model-lstm)
        2. [Training dan Testing LSTM](#training-testing-lstm)
-    2. [biLSTM](#bilstm)
-       1. [Analisis Model biLSTM](#analisis-model-bilstm)
-       2. [Training dan Testing biLSTM](#training-testing-bilstm)
+    2. [BiLSTM](#bilstm)
+       1. [Analisis Model BiLSTM](#analisis-model-bilstm)
+       2. [Training dan Testing BiLSTM](#training-testing-bilstm)
     3. [BERT](#bert)
        1. [Analisis Model BERT](#analisis-model-bert)
        2. [Training dan Testing BERT](#training-testing-bert)
     4. [Perbandingan Masing-masing Model](#perbandingan-model)
-    5. [Alasan Model yang Digunakan Paling Unggul](#alasan-model-unggul)
+    5. [Alasan Model BiLSTM Paling Unggul](#alasan-model-unggul)
 
 <!-- /MarkdownTOC -->
 </details>
@@ -279,6 +279,8 @@ Bagian ketiga yaitu output gate, yaitu bagian yang akan memberikan informasi yan
 
 </details>
 
+---
+
 <a id="analisis-model-lstm"></a>
 ### **Analisis Model LSTM** [🔝](#daftar-isi)
 
@@ -397,6 +399,8 @@ Hasil percobaan kedua mendapatkan performa akurasi dan loss yang lebih buruk, ka
 
 </details>
 
+---
+
 <a id="training-testing-lstm"></a>
 ### **Training dan Testing LSTM** [🔝](#daftar-isi)
 
@@ -462,6 +466,8 @@ sesudahnya. Jika LSTM hanya bisa mengakses informasi dari masa lalu saja, tetapi
 
 </details>
 
+---
+
 <a id="analisis-model-bilstm"></a>
 ### **Analisis Model biLSTM** [🔝](#daftar-isi)
 
@@ -482,6 +488,8 @@ Pada tahap ini, dilakukan pengukuran/evaluasi performa model dalam memprediksi d
 Hasil dari tahap pelatihan (*training*) model mencapai akurasi sebesar 94% dan *loss* sebesar 0.09. namun performa model secara keseluruhan menurun pada data validasi, dimana *loss* menurun sebesar 2 poin dan *accuracy* menurun sebesar 22%. Pada tahap *testing*, performa yang dihasilkan mirip dengan performa pada validasi. Hal ini mengindikasikan bahwa model BiLSTM mengalami ***overfitting***.
 
 </details>
+
+---
 
 <a id="training-testing-bilstm"></a>
 ### **Training dan Testing biLSTM** [🔝](#daftar-isi)
@@ -564,6 +572,8 @@ BERT unggul dan dapat dimanfaatkan untuk beberapa tugas berikut.
 - *Sentiment classification*
 
 </details>
+
+---
 
 <a id="analisis-model-bert"></a>
 ### **Analisis Model BERT** [🔝](#daftar-isi)
@@ -659,6 +669,8 @@ Kesimpulan hasil percobaan BERT dapat dilihat pada tabel berikut.
 Hasil evaluasi model menunjukkan bahwa model BERT memiliki performa yang **buruk** dan tidak dapat digunakan sebagai model pada aplikasi.
 
 </details>
+
+---
 
 <a id="training-testing-bert"></a>
 ### **Training dan Testing BERT** [🔝](#daftar-isi)
@@ -786,14 +798,12 @@ Dari tabel perbandingan di atas, dapat dilihat bahwa model dengan performa terba
 ---
 
 <a id="alasan-model-unggul"></a>
-## **Alasan BiLSTM Paling Unggul** [🔝](#daftar-isi)
+## **Alasan Model BiLSTM Paling Unggul** [🔝](#daftar-isi)
 
 <details>
 <summary><b>Klik untuk Lihat Detail⤵️</b></summary>
 
-Kami melakukan percobaan implementasi model LSTM, BiLSTM, dan BERT sebagai basis model deep learning AI Chatbot Teman Ngorte. Dari percobaan yang kami lakukan, didapatkan hasil bahwa model BiLSTM memiliki performa terbaik diantara seluruh model yang kami coba, dengan akurasi training sebesar 97,59% dan validasi sebesar 75,26%, serta nilai loss terendah pada proses training sebesar 0,0506 dan validasi sebesar 1,6495.
-
-Dari performa tersebut, maka kami menggunakan model BiLSTM sebagai basis model AI Chatbot Teman Ngorte. 
+Model BiLSTM yang dibuat, memiliki akurasi yang lebih tinggi dari pada model lain yang telah dibuat seperti LSTM dan BERT. Pada tahap pelatihan (training) model **BiLSTM** menghasilkan akurasi sebesar **94%** dan loss sebesar **0.09**,  jika dibandingkan dengan model lain yang telah dibuat seperti LSTM dimana menghasilkan akurasi sebesar 92% dan loss sebesar 0.1509, dan juga model BERT dimana menghasilkan akurasi sebesar 88% dan loss sebesar 0.3181. Hal ini membuktikan bahwa **model BiLSTM lebih unggul** dari pada model LSTM dan BERT. 
 
 </details>
 
