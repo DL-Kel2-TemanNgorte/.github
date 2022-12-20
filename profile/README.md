@@ -393,7 +393,7 @@ Evaluasi hasil training model dilakukan dengan melihat nilai loss dan akurasi pa
     
 - Hasil Percobaan Ketiga
 
-    Hasil training pada epoch terakhir (ke-150) didapatkan nilai akurasi training mencapai 86,58% dan akurasi validasi 68,14. Nilai loss pada proses training adalah sebesar 0,3673 dan loss nilai validasi adalah sebesar 2,2704.
+    Hasil training pada epoch terakhir (ke-150) didapatkan nilai akurasi training mencapai 86,58% dan akurasi validasi 68,14%. Nilai loss pada proses training adalah sebesar 0,3673 dan loss nilai validasi adalah sebesar 2,2704.
 
     ![lstmtry3](https://user-images.githubusercontent.com/76557114/208721790-0b544aee-aa9e-4a81-91ed-13a0dc725eb9.jpg)
 
@@ -422,7 +422,7 @@ Hasil testing model LSTM pada percobaan ketiga dapat dilihat pada tabel berikut.
 | Loss     | 2.06    |
 | Accuracy | 0.69    |
 
-Performa yang dihasilkan pada tahap testing ternyata mirip dengan performa pada validasi. Hal ini mengindikasikan bahwa model LSTM yang dibangun mengalami ***overfitting***.
+Performa yang dihasilkan pada tahap testing ternyata cukup mirip dengan performa pada validasi. Hal ini mengindikasikan bahwa model LSTM yang dibangun mengalami ***overfitting***.
     
 </details>
 
@@ -436,13 +436,13 @@ Performa yang dihasilkan pada tahap testing ternyata mirip dengan performa pada 
 
 #### LSTM
 ---
-Proses pembuatan model LSTM (*Long-Short Term Memory*) dilakukan dalam 2 tahap, yaitu *training* dan *evaluation*. Berikut merupakan penjelasan masing-masing tahapannya.
+Proses pembuatan model LSTM (*Long-Short Term Memory*) dilakukan dalam 3 tahap, yaitu *training*, *evaluation*, dan *testing*. Berikut merupakan penjelasan masing-masing tahapannya.
 
 ##### 1. Training
 Pada tahap *training*, beberapa proses yang dilakukan antara lain **persiapan data training**, **pembuatan arsitektur model**, dan **pelatihan model**.
 
 ###### 1.1 Persiapan Data Training
-Pada tahap ini, seluruh dataset yang digunakan akan dipecah (*split*) menjadi beberapa *subset*, yaitu data *train* (data latih) dan data *validation* (data validasi). Data *train* dan data *validation* dibuat dengan fungsi `train_test_split` dari *library* sklearn. Seluruh *dataset* dipecah menjadi dua *subset*, yaitu *data train* dan *data validation* dengan proporsi 80% dan 20%. Data *train* kemudian digunakan pada tahap *training* dan data *validation* digunakan pada tahap *evaluation*.
+Pada tahap ini, seluruh dataset yang digunakan akan dipecah (*split*) menjadi beberapa *subset*, yaitu data *train* (data latih) dan data *test* (data uji). Data *train* dan data *test* dibuat dengan fungsi `train_test_split` dari *library* sklearn. Seluruh *dataset* dipecah menjadi dua *subset*, yaitu *data train* dan *data test* dengan proporsi 80% dan 20%. Data *train* kemudian digunakan pada tahap *training* dan data *test* digunakan pada tahap *testing*.
 
 ###### 1.2 Pembuatan Arsitektur Model
 
