@@ -1,11 +1,11 @@
 <!-- # Kelompok 2 - Teman Ngorte. -->
 
+<a id="anggota-kelompok"></a>
 <h1 align="center" width="100%">
     <b>Kelompok 2 - Teman Ngorte. <br>
     ※※※
 </h1>
 
-<a id="anggota-kelompok"></a>
 # **Anggota**
 - ### Vidya Chandradev - 1905551067 ([catgoesmeow14](https://github.com/catgoesmeow14))
 - ### Anak Agung Istri Prabhaisvari Sadhaka - 1905551044 ([prbisv](https://github.com/prbisv))
