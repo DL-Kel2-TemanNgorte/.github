@@ -289,11 +289,11 @@ Bagian ketiga yaitu output gate, yaitu bagian yang akan memberikan informasi yan
 
 ##### **Tahapan Penelitian**
 
-Pada implementasi model LSTM ini, **terdapat dua percobaan**. Perbedaan kedua percobaan ini terdapat pada **jumlah kelas**, dan **jumlah epoch** pada proses training.
+Pada implementasi model LSTM ini, **terdapat tiga percobaan**. Perbedaan ketiga percobaan ini terdapat pada **jumlah kelas** dan **jumlah epoch** pada proses training serta penambahan proses **testing**.
 
-Percobaan pertama hanya diambil 16 kelas dari total 18 kelas, dengan pengecualian terhadap kelas `salam` dan `bye_thanks`. Percobaan kedua menggunakan keseluruhan kelas.
+Percobaan pertama hanya diambil 16 kelas dari total 18 kelas, dengan pengecualian terhadap kelas `salam` dan `bye_thanks`. Percobaan kedua dan ketiga menggunakan keseluruhan kelas.
 
-Jumlah epoch pada proses training percobaan pertama adalah **120 epoch**, dan percobaan kedua adalah **150 epoch**.
+Jumlah epoch pada proses training percobaan pertama adalah **120 epoch**, serta percobaan kedua dan ketiga adalah **150 epoch**.
 
 ##### **Alur Kerja**
 
@@ -309,10 +309,10 @@ Model diimplementasikan menggunakan framework TensorFlow yang disimpan dalam for
 
 - Arsitektur Percobaan Pertama
     ![Alt text](https://i.ibb.co/xMwkL35/chatbot-model-lstm-withval-databaru-h5-2.jpg "Arsitektur LSTM pertama")  
-- Arsitektur Percobaan Kedua
+- Arsitektur Percobaan Kedua dan Ketiga
     ![Alt text](https://i.ibb.co/8BgDNMB/chatbot-model-lstm-withval-datafix72-h5.jpg, "Arsitektur LSTM kedua")
 
-Perbedaan arsitektur dari kedua percobaan hanya terletak pada dense layer keluaran, dimana percobaan pertama berjumlah 16 unit neuron dan percobaan kedua berjumlah 18 unit neuron. Jumlah unit ini disesuaikan dengan jumlah kelas keluaran model.
+Perbedaan arsitektur dari ketiga percobaan hanya terletak pada dense layer keluaran, dimana percobaan pertama berjumlah 16 unit neuron serta percobaan kedua dan ketiga berjumlah 18 unit neuron. Jumlah unit ini disesuaikan dengan jumlah kelas keluaran model.
 
 ###### **Implementasi Model**
 
@@ -359,16 +359,23 @@ Evaluasi hasil training model dilakukan dengan melihat nilai loss dan akurasi pa
 - Grafik Percobaan Pertama
     ![Alt text](https://i.ibb.co/YfWXHRT/output-120.jpg "Hasil Evaluasi Model 1")  
 
-    Grafik nilai akurasi menunjukkan bahwa nilai akurasi baik pada proses training maupun validasi mengalami peningkaan secara signifikan. Namun, pada grafik akurasi validasi tidak terjadi peningkatan signifikan ketika mencapai epoch ke-40.
+    Grafik nilai akurasi menunjukkan bahwa nilai akurasi baik pada proses training maupun validasi mengalami peningkatan secara signifikan. Namun, pada grafik akurasi validasi tidak terjadi peningkatan signifikan ketika mencapai epoch ke-40.
 
     Grafik nilai loss menunjukkan bahwa nilai loss pada proses training mengalami penurunan signifikan dari 1.0 menjadi 0.15, namun nilai loss validasi mengalami peningkatan signifikan dari 1.5 menjadi 2.73. Hal ini menunjukkan bahwa model belum berhasil melakukan generalisasi sehingga terjadi peningkatan nilai loss ketika berhadapan dengan data uji.
 
 - Grafik Percobaan Kedua
     ![Alt text](https://i.ibb.co/6DydDcv/output2.jpg "Hasil Evaluasi Model 2")  
 
-    Grafik nilai akurasi menunjukkan bahwa nilai akurasi baik pada proses training maupun validasi mengalami peningkaan, namun pada beberapa kurun waktu sempat mengalami stagnansi, dan beberapa lainnya mengalami peningkatan tajam.
+    Grafik nilai akurasi menunjukkan bahwa nilai akurasi baik pada proses training maupun validasi mengalami peningkatan, namun pada beberapa kurun waktu sempat mengalami stagnansi, dan beberapa lainnya mengalami peningkatan tajam.
 
     Grafik nilai loss menunjukkan bahwa nilai loss pada proses training mengalami penurunan signifikan dari 2.75 menjadi 0.8, dan nilai loss validasi dari 2.5 menjadi 1.73. Hal ini juga menunjukkan bahwa model berhasil melakukan pembelajaran dengan baik namun masih belum optimal.
+    
+- Grafik Percobaan Ketiga
+    ![lstmgraph2](https://user-images.githubusercontent.com/76557114/208720703-97059de3-7115-479f-86ad-ae6eef06a150.jpg)
+
+    Grafik nilai akurasi menunjukkan bahwa nilai akurasi baik pada proses training maupun validasi mengalami peningkatan secara signifikan, meskipun pada awalnya sempat mengalami stagnansi (pada epoch ke-1 hingga ke-40).
+
+    Grafik nilai loss menunjukkan bahwa nilai loss pada proses training mengalami penurunan signifikan dari 2.81 menjadi 0.36, sedangkan nilai loss validasi terlihat naik-turun (terutama mulai dari epoch ke-80). Hasil penurunan nilai loss validasi yang didapatkan yaitu dari 2.6 menjadi 2.27. Hal ini juga menunjukkan bahwa model berhasil melakukan pembelajaran namun masih belum optimal.
 
 ###### **Hasil Evaluasi Model LSTM**
 
@@ -383,20 +390,40 @@ Evaluasi hasil training model dilakukan dengan melihat nilai loss dan akurasi pa
     Hasil training pada epoch terakhir (ke-150) didapatkan nilai akurasi training mencapai 72,93% dan akurasi validasi 62,46%. Nilai loss pada proses training adalah sebesar 0,8099 dan loss nilai validasi adalah sebesar 1,7347.
 
     ![Alt text](https://i.ibb.co/gyjZzY5/Screenshot-2022-12-20-at-20-08-26.png "Nilai Akurasi dan Loss Epoch Terakhir Percobaan 2")
+    
+- Hasil Percobaan Ketiga
 
-Perbandingan hasil kedua percobaan lebih jelas dapat dilihat pada tabel berikut.
+    Hasil training pada epoch terakhir (ke-150) didapatkan nilai akurasi training mencapai 86,58% dan akurasi validasi 68,14. Nilai loss pada proses training adalah sebesar 0,3673 dan loss nilai validasi adalah sebesar 2,2704.
 
-| Metrik              | Hasil Percobaan 1 | Hasil Percobaan 2 |
-| :------------------ | ----------------: | ----------------: |
-| Training Loss       |            0,1509 |            0,8099 |
-| Validation Loss     |            2,7392 |            1,7347 |
-| Training Accuracy   |            92,03% |            72,93% |
-| Validation Accuracy |            69,75% |            62,46% |
+    ![lstmtry3](https://user-images.githubusercontent.com/76557114/208721790-0b544aee-aa9e-4a81-91ed-13a0dc725eb9.jpg)
+
+
+Perbandingan hasil ketiga percobaan lebih jelas dapat dilihat pada tabel berikut.
+
+| Metrik              | Hasil Percobaan 1 | Hasil Percobaan 2 | Hasil Percobaan 3 |
+| :------------------ | ----------------: | ----------------: |-----------------: |
+| Training Loss       |            0,1509 |            0,8099 |            0,3673 |
+| Validation Loss     |            2,7392 |            1,7347 |            2,2704 |
+| Training Accuracy   |            92,03% |            72,93% |            86,58% |
+| Validation Accuracy |            69,75% |            62,46% |            68,14% |
 
 Hasil evaluasi model menunjukkan bahwa **performa model LSTM terbaik didapat dari percobaan pertama**. Akurasi model pada proses training yang dihasilkan cukup tinggi, yaitu mencapai 92 persen, namun akurasi pada proses pengujian menggunakan dataset validasi hanya mencapai 69 persen. Hal ini menunjukkan bahwa model masih belum berhasil melakukan klasifikasi teks dengan baik dan perlu penelitian lebih lanjut.
 
 Hasil percobaan kedua mendapatkan performa akurasi dan loss yang lebih buruk, karena terdapat perbedaan jumlah kelas. Dimana percobaan pertama hanya terdapat 16 kelas, sedangkan percobaan kedua terdapat 18 kelas. Peningkatan jumlah epoch pada percobaan kedua juga memiliki kontribusi yang kurang signifikan terhadap upaya peningkatan performa dari percobaan pertama.
+    
+Hasil percobaan ketiga mendapatkan performa akurasi yang lebih buruk dari percobaan pertama, namun lebih baik dari percobaan kedua, karena terdapat perbedaan jumlah kelas. Dimana percobaan pertama hanya terdapat 16 kelas, sedangkan percobaan kedua dan ketiga terdapat 18 kelas. Percobaan ketiga memiliki jumlah epoch yang sama dengan percobaan kedua, namun performanya meningkat cukup signifikan terutama pada training accuracy-nya. Hasil percobaan ketiga inilah yang akan di-testing pada tahap selanjutnya karena memiliki akurasi yang lebih baik dari percobaan ketiga dan nilai loss yang lebih baik dari percobaan pertama.
 
+###### **Hasil Testing Model LSTM**
+    
+Hasil testing model LSTM pada percobaan ketiga dapat dilihat pada tabel berikut.
+    
+| Metriks  | Testing |
+|----------|---------|
+| Loss     | 2.06    |
+| Accuracy | 0.69    |
+
+Performa yang dihasilkan pada tahap testing ternyata mirip dengan performa pada validasi. Hal ini mengindikasikan bahwa model LSTM yang dibangun mengalami ***overfitting***.
+    
 </details>
 
 ---
@@ -418,15 +445,34 @@ Pada tahap *training*, beberapa proses yang dilakukan antara lain **persiapan da
 Pada tahap ini, seluruh dataset yang digunakan akan dipecah (*split*) menjadi beberapa *subset*, yaitu data *train* (data latih) dan data *validation* (data validasi). Data *train* dan data *validation* dibuat dengan fungsi `train_test_split` dari *library* sklearn. Seluruh *dataset* dipecah menjadi dua *subset*, yaitu *data train* dan *data validation* dengan proporsi 80% dan 20%. Data *train* kemudian digunakan pada tahap *training* dan data *validation* digunakan pada tahap *evaluation*.
 
 ###### 1.2 Pembuatan Arsitektur Model
+
 Pada tahap ini, dilakukan pembuatan arsitektur model LSTM dengan metode *sequential* menggunakan *library* TensorFlow Keras. Berikut merupakan arsitektur dari model LSTM yang dibuat.
 
+Percobaan 1
+    
+![model_plot_lstm16](https://user-images.githubusercontent.com/76557114/208725972-45611325-48eb-4c82-8f35-1d1878323cba.png)
+
+Percobaan 2 dan 3
+    
 ![model_plot_lstm18](https://user-images.githubusercontent.com/76557114/208538594-0a5d6a4f-e8b3-4b0f-9a2f-cbde9a022deb.png)
 
-Gambar di atas merupakan arsitektur dari model LSTM yang telah dibuat. Terdapat lapisan input yang berukuran 150 kolom. Input tersebut kemudian mengirimkan data pada lapisan ***Embedding*** dengan jumlah *vocabulary* maksimum sebesar 3000 dan dimensi *embedding* berukuran 150. Hasil *embedding* kemudian akan dikirimkan pada lapisan ***SpatialDropout1D***. Setelah itu, data akan dikirimkan kepada lapisan LSTM pertama dengan jumlah unit sebesar 64. Lapisan berikutnya adalah lapisan LSTM kedua (*stacked*) dengan jumlah unit yang sama yaitu 64. Setelah data melalui lapisan LSTM, kemudian akan dikirim pada lapisan ***Dense*** (neuron biasa) dengan jumlah unit sebesar 64 dan *activation function* ReLu. Hasil dari lapisan ini kemudian akan dikirimkan pada lapisan terakhir (*output layer*) dengan total *output* sebesar 18.
+Gambar di atas merupakan arsitektur dari model LSTM yang telah dibuat. Penulis melakukan 3 kali percobaan pembuatan model LSTM. Pada percobaan pertama, terdapat lapisan input yang berukuran 150 kolom. Input tersebut kemudian mengirimkan data pada lapisan ***Embedding*** dengan jumlah vocabulary maksimum sebesar 3000 dan dimensi embedding berukuran 150. Hasil embedding kemudian akan dikirimkan pada lapisan ***SpatialDropout1D***. Setelah itu, data akan dikirimkan kepada lapisan LSTM pertama dengan jumlah unit sebesar 64. Lapisan berikutnya adalah lapisan LSTM kedua (*stacked*) dengan jumlah unit yang sama yaitu 64. Setelah data melalui lapisan LSTM, kemudian akan dikirim pada lapisan ***Dense*** (neuron biasa) dengan jumlah unit sebesar 64 dan activation function ReLu. Hasil dari lapisan ini kemudian akan dikirimkan pada lapisan terakhir (*output layer*) dengan total output sebesar 16. Arsitektur pada percobaan kedua dan ketiga hampir sama dengan percobaan pertama, yang membedakan hanyalah total *output*-nya yaitu sebesar 18. Jumlah output ini menyesuaikan dengan jumlah kelas keluaran model.
 
 ###### 1.3 Training Model
 Pada tahap ini, data akan dipelajari representasinya oleh model yang telah dibuat. Pada tahap ini, digunakan dua buah *subset* data yaitu data *train* dan data *validation*. Data *train* digunakan untuk pelatihan model, sementara data *validation* digunakan untuk mengukur performa model pada data yang belum pernah dilihat. Berikut merupakan konfigurasi dari tahap pelatihan model LSTM.
 
+Percobaan 1
+    
+| No. | Hyperparameter | Nilai                           |
+|-----|----------------|---------------------------------|
+| 1.  | Optimizer      | Adam                            |
+| 2.  | Loss           | Categorical Crossentropy        |
+| 3.  | Epochs         | 120                             |
+| 4.  | Batch Size     | 128                             |
+
+    
+Percobaan 2 dan 3
+    
 | No. | Hyperparameter | Nilai                           |
 |-----|----------------|---------------------------------|
 | 1.  | Optimizer      | Adam                            |
@@ -434,7 +480,10 @@ Pada tahap ini, data akan dipelajari representasinya oleh model yang telah dibua
 | 3.  | Epochs         | 150                             |
 | 4.  | Batch Size     | 128                             |
 
-Hasil dari proses pelatihan model akan dibahas pada tahap evaluasi.
+Hasil dari proses pelatihan model (evaluasi) dibahas lebih lanjut pada bagian analisis model LSTM.
+
+##### 2. Testing Model
+Pada tahap ini, model akan melakukan prediksi terhadap data uji (*test*) yang belum pernah dilihat sebelumnya. Hal ini bertujuan untuk mengukur performa model untuk melakukan generalisasi. Data uji yang digunakan merupakan hasil split dataset dengan rasio 20%. Hasil dari tahap testing dibahas lebih lanjut pada bagian analisis model LSTM.
 
 </details>
 
