@@ -6,7 +6,12 @@ Algoritma LSTM atau *Long Short Term Memory* merupakan bentuk pengembangan dari 
 Berdasarkan penelitian yang dilakukan oleh **Hochreiter dan Schmidhuber** di tahun 1997 yang kemudian menjadi cikal bakal arsitektur LSTM modern, LSTM terbukti dapat menyelesaikan permasalahan yang cukup kompleks dan belum atau kurang dapat diselesaikan oleh algoritma *reccurent* lainnya.
 
 ### Gates Pada LSTM 
-Terdapat tiga bagian gates yang hanya digunakan pada algoritma *Long Short-Term Memory*, dimana masing-masing memiliki fungsinya tersendiri. Penjelasan mengenai gates tersebut adalah sebagai berikut. 
+Terdapat state serta tiga bagian gates yang hanya digunakan pada algoritma *Long Short-Term Memory*, dimana masing-masing memiliki fungsinya tersendiri. Penjelasan mengenai gates dan state tersebut adalah sebagai berikut. 
+
+#### Cell State
+*cell state* adalah kunci dari model LSTM. Gates yang terhubung ke cell state akan memberikan informasi yang akan diteruskan oleh *cell state* ini sepanjang arsitektur LSTM tersebut berjalan hingga menghasilkan *output*
+
+![Alt text](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-C-line.png)
 
 #### Forget Gate
 Bagian pertama yang dinamakan forget gates merupakan bagian yang akan menentukan apakah suatu informasi akan digunakan kembali atau diingat atau dilupakan.
@@ -23,10 +28,10 @@ Bagian ketiga yaitu output gate, yaitu bagian yang akan memberikan informasi yan
 
 ![Alt text](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-o.png)
 
-### LSTM untuk Text Classification
-  Terdapat banyak algoritma lainnya yang dapat digunakan untuk klasifikasi text seperti SVM atau Neural Network pada umumnya. Akan tetapi sebagian besar algoritma tersebut tidak memberikan hasil yang baik jika dibandingkan dengan LSTM. Hal tersebut karena LSTM mampu untuk mengingat informasi penting dengan efektif.
+### LSTM untuk Natural Language Processing 
+  Terdapat banyak algoritma lainnya yang dapat digunakan untuk *natural language processing* khususnya klasifikasi text seperti SVM atau Neural Network pada umumnya. Akan tetapi sebagian besar algoritma tersebut tidak memberikan hasil yang baik jika dibandingkan dengan LSTM. Hal tersebut karena LSTM mampu untuk mengingat informasi penting dengan efektif.
 
-  Dengan menggunakan LSTM kita dapat menggunakan beberapa string kata untuk mengetahui kelas yang menjadi tempatnya. Hal tersebut sangat membantu dalam proses pengerjaan *natural language processing*. Jika menggunakan lapisan penyematan dan penyandian yang sesuai di LSTM, model akan dapat mengetahui arti sebenarnya dari *string* input dan akan memberikan kelas *output* yang paling akurat. 
+  Pemanfaatan LSTM dapat menggunakan beberapa string kata untuk mengetahui kelas yang menjadi tempatnya. Hal tersebut sangat membantu dalam proses pengerjaan *natural language processing*. Jika menggunakan lapisan penyematan dan penyandian yang sesuai di LSTM, model akan dapat mengetahui arti sebenarnya dari *string* input dan akan memberikan kelas *output* yang paling akurat. 
 
 
 ---
@@ -42,6 +47,8 @@ Bagian ketiga yaitu output gate, yaitu bagian yang akan memberikan informasi yan
 ### Untuk menjalankan aplikasi ini, dapat langsung mengakses link berikut
 
 **[Website Teman Ngorte](https://chatbot-app-three.vercel.app/)**
+
+---
 
 ## Cara Menggunakan Aplikasi
 Aplikasi ini dapat digunakan dengan **2 cara login** yaitu sebagai berikut
@@ -75,7 +82,7 @@ Klik Pada Tombol "Yuk Curhat!"
 ![yukcurhat](https://user-images.githubusercontent.com/80409196/208438298-63e6d08c-d5a2-4763-9754-1d2b9c910bd8.png)
 
 #### Step 4 : 
-Sampaikan keluh kesahmu pada TimpalBot! TimpalBot akan menjadi teman curhatmu!
+Apabila tampilan chat sudah terlihat, maka dapat langsung menggunakan aplikasi dengan mengetikkan pesan, kemudian kirim pesan dengan klik pada tombol send pada bagian kanan box chat
 ![chat](https://user-images.githubusercontent.com/80409196/208438371-13137646-9b63-42ba-9a56-7a0d02452b60.png)
 
 #### Step 5 : 
@@ -89,8 +96,12 @@ Untuk keluar dari aplikasi, dapat dilakukan dengan klik pada tombol **logout**
 #### Step 7 : 
 Untuk konfirmasi logout, dapat dilakukan dengan klik **OK** pada pop up konfirmasi logout
 ![notif logout2](https://user-images.githubusercontent.com/80409196/208438706-d46ab361-9dd4-46ab-8f20-b4a31f76607e.png)
+Apabila proses logout berhasil, maka website akan kembali ke tampilan awal
+
+
 
 ### 2. Menggunakan **Login as Guest**
+
 Untuk menggunakan Login as Guest, pengguna **tidak perlu** memasukkan **username dan password**
 
 #### Step 1 : 
@@ -102,7 +113,7 @@ Klik Pada Tombol "Yuk Curhat!"
 ![welcomeguest](https://user-images.githubusercontent.com/80409196/208439334-12eb3602-5317-4451-a7ce-48913a0a8f30.png)
 
 #### Step 3 : 
-Sampaikan keluh kesahmu pada TimpalBot! TimpalBot akan menjadi teman curhatmu!
+Apabila tampilan chat sudah terlihat, maka dapat langsung menggunakan aplikasi dengan mengetikkan pesan, kemudian kirim pesan dengan klik pada tombol send pada bagian kanan box chat
 ![chat](https://user-images.githubusercontent.com/80409196/208438371-13137646-9b63-42ba-9a56-7a0d02452b60.png)
 
 #### Step 4 : 
@@ -116,5 +127,7 @@ Untuk keluar dari aplikasi, dapat dilakukan dengan klik pada tombol **logout**
 #### Step 6 : 
 Untuk konfirmasi logout, dapat dilakukan dengan klik **OK** pada pop up konfirmasi logout
 ![logoutguest2](https://user-images.githubusercontent.com/80409196/208440696-4991064c-3104-46cc-a536-f64f2a20471d.png)
+
+Apabila proses logout berhasil, maka website akan kembali ke tampilan awal
 
 ---
