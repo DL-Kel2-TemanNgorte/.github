@@ -48,6 +48,8 @@ Bagian ketiga yaitu output gate, yaitu bagian yang akan memberikan informasi yan
 
 **[Website Teman Ngorte](https://chatbot-app-three.vercel.app/)**
 
+---
+
 ## Cara Menggunakan Aplikasi
 Aplikasi ini dapat digunakan dengan **2 cara login** yaitu sebagai berikut
 
@@ -80,7 +82,7 @@ Klik Pada Tombol "Yuk Curhat!"
 ![yukcurhat](https://user-images.githubusercontent.com/80409196/208438298-63e6d08c-d5a2-4763-9754-1d2b9c910bd8.png)
 
 #### Step 4 : 
-Sampaikan keluh kesahmu pada TimpalBot! TimpalBot akan menjadi teman curhatmu!
+Apabila tampilan chat sudah terlihat, maka dapat langsung menggunakan aplikasi dengan mengetikkan pesan, kemudian kirim pesan dengan klik pada tombol send pada bagian kanan box chat
 ![chat](https://user-images.githubusercontent.com/80409196/208438371-13137646-9b63-42ba-9a56-7a0d02452b60.png)
 
 #### Step 5 : 
@@ -94,8 +96,12 @@ Untuk keluar dari aplikasi, dapat dilakukan dengan klik pada tombol **logout**
 #### Step 7 : 
 Untuk konfirmasi logout, dapat dilakukan dengan klik **OK** pada pop up konfirmasi logout
 ![notif logout2](https://user-images.githubusercontent.com/80409196/208438706-d46ab361-9dd4-46ab-8f20-b4a31f76607e.png)
+Apabila proses logout berhasil, maka website akan kembali ke tampilan awal
+
+
 
 ### 2. Menggunakan **Login as Guest**
+
 Untuk menggunakan Login as Guest, pengguna **tidak perlu** memasukkan **username dan password**
 
 #### Step 1 : 
@@ -107,7 +113,7 @@ Klik Pada Tombol "Yuk Curhat!"
 ![welcomeguest](https://user-images.githubusercontent.com/80409196/208439334-12eb3602-5317-4451-a7ce-48913a0a8f30.png)
 
 #### Step 3 : 
-Sampaikan keluh kesahmu pada TimpalBot! TimpalBot akan menjadi teman curhatmu!
+Apabila tampilan chat sudah terlihat, maka dapat langsung menggunakan aplikasi dengan mengetikkan pesan, kemudian kirim pesan dengan klik pada tombol send pada bagian kanan box chat
 ![chat](https://user-images.githubusercontent.com/80409196/208438371-13137646-9b63-42ba-9a56-7a0d02452b60.png)
 
 #### Step 4 : 
@@ -121,5 +127,7 @@ Untuk keluar dari aplikasi, dapat dilakukan dengan klik pada tombol **logout**
 #### Step 6 : 
 Untuk konfirmasi logout, dapat dilakukan dengan klik **OK** pada pop up konfirmasi logout
 ![logoutguest2](https://user-images.githubusercontent.com/80409196/208440696-4991064c-3104-46cc-a536-f64f2a20471d.png)
+
+Apabila proses logout berhasil, maka website akan kembali ke tampilan awal
 
 ---
