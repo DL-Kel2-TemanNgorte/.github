@@ -1,7 +1,7 @@
 <!-- # Kelompok 2 - Teman Ngorte. -->
 
-<a id="anggota-kelompok"></a>
 <h1 align="center" width="100%">
+    <a id="anggota-kelompok"></a>
     <b>Kelompok 2 - Teman Ngorte. <br>
     ※※※
 </h1>
@@ -17,8 +17,9 @@
 
 <a id="daftar-isi"></a>
 # **Daftar Isi**
+<h3>
 <details>
-<summary><b>(Klik untuk Detail)</b></summary>
+<summary><b>Klik untuk Lihat Detail⤵️</b></summary>
 <!-- MarkdownTOC -->
 
 1. [Anggota Kelompok 2](#anggota-kelompok)
@@ -42,6 +43,7 @@
 
 <!-- /MarkdownTOC -->
 </details>
+</h3>
 
 ---
 
