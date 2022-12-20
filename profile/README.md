@@ -46,7 +46,7 @@
 ---
 
 <a id="deskripsi-aplikasi"></a>
-# **Deskripsi Aplikasi**
+# **Deskripsi Aplikasi**  [🔝](#daftar-isi)
 
 #### Sekitar **19 juta** orang yang berumur >15 tahun menderita Mental Illness berdasarkan data Riskesdas 2018. Litbangkes juga menyebutkan bahwa angka kasus bunuh diri setiap tahunnya hampir mencapai **2 ribu** orang. Selain itu, situs Integrasi Layanan Rehabilitasi Sosial menyatakan Indonesia **hanya memiliki 48 rumah sakit jiwa**, dengan 32 milik negara dan 16 swasta. Bahkan **8** provinsi belum memiliki rumah sakit jiwa. Tidak hanya itu, jumlah tenaga kesehatan jiwa profesional yang tersedia hanya berkisar **1.053 orang** berdasarkan penelitian terbaru. 
 
@@ -84,7 +84,7 @@
 
 ---
 
-## **Website Teman Ngorte** ➡️ **[Teman Ngorte](https://chatbot-app-three.vercel.app/)**
+## **Website Teman Ngorte** ➡️ **[Teman Ngorte](https://chatbot-app-three.vercel.app/)** [🔝](#daftar-isi)
 
 ## **Login**
 > ### Username : `pencurhat`  
@@ -93,13 +93,13 @@
 ---
 
 <a id="tutorial"></a>
-# **Tutorial**
+# **Tutorial** [🔝](#daftar-isi)
 _under maintenance_
 
 ---
 
 <a id="arsitektur-aplikasi"></a>
-# **Arsitektur Aplikasi**
+# **Arsitektur Aplikasi** [🔝](#daftar-isi)
 _under maintenance_
 >### 1. Login
 >### 2. Dashboard
@@ -108,63 +108,63 @@ _under maintenance_
 ---
 
 <a id="dataset"></a>
-# **Dataset**
+# **Dataset** [🔝](#daftar-isi)
 _under maintenance_
 
 ---
 
 <a id="algoritma-deep-learning"></a>
-# **Algoritma Deep Learning**
+# **Algoritma Deep Learning** 
 <a id="lstm"></a>
-## **LSTM**
+## **LSTM** [🔝](#daftar-isi)
 _under maintenance_
 
 <a id="analisis-model-lstm"></a>
-### **Analisis Model LSTM**
+### **Analisis Model LSTM** [🔝](#daftar-isi)
 _under maintenance_
 
 <a id="training-testing-lstm"></a>
-### **Training dan Testing LSTM**
+### **Training dan Testing LSTM** [🔝](#daftar-isi)
 _under maintenance_
 
 ---
 
 <a id="bilstm"></a>
-## **biLSTM**
+## **biLSTM** [🔝](#daftar-isi)
 _under maintenance_
 
 <a id="analisis-model-bilstm"></a>
-### **Analisis Model biLSTM**
+### **Analisis Model biLSTM** [🔝](#daftar-isi)
 _under maintenance_
 
 <a id="training-testing-bilstm"></a>
-### **Training dan Testing biLSTM**
+### **Training dan Testing biLSTM** [🔝](#daftar-isi)
 _under maintenance_
 
 ---
 
 <a id="bert"></a>
-## **BERT**
+## **BERT** [🔝](#daftar-isi)
 _under maintenance_
 
 <a id="analisis-model-bert"></a>
-### **Analisis Model BERT**
+### **Analisis Model BERT** [🔝](#daftar-isi)
 _under maintenance_
 
 <a id="training-testing-bert"></a>
-### **Training dan Testing BERT**
+### **Training dan Testing BERT** [🔝](#daftar-isi)
 _under maintenance_
 
 ---
 
 <a id="perbandingan-model"></a>
-## **Perbandingan Masing-masing Model**
+## **Perbandingan Masing-masing Model** [🔝](#daftar-isi)
 _under maintenance_
 
 ---
 
 <a id="alasan-model-unggul"></a>
-## **Alasan Model yang Digunakan Paling Unggul**
+## **Alasan Model yang Digunakan Paling Unggul** [🔝](#daftar-isi)
 _under maintenance_
 
 ---
