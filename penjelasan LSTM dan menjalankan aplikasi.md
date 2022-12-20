@@ -8,6 +8,11 @@ Berdasarkan penelitian yang dilakukan oleh **Hochreiter dan Schmidhuber** di tah
 ### Gates Pada LSTM 
 Terdapat tiga bagian gates yang hanya digunakan pada algoritma *Long Short-Term Memory*, dimana masing-masing memiliki fungsinya tersendiri. Penjelasan mengenai gates tersebut adalah sebagai berikut. 
 
+#### Cell State
+*cell state* adalah kunci dari model LSTM. Gates yang terhubung ke cell state akan memberikan informasi yang akan diteruskan oleh *cell state* ini sepanjang arsitektur LSTM tersebut berjalan hingga menghasilkan *output*
+
+![Alt text](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-C-line.png)
+
 #### Forget Gate
 Bagian pertama yang dinamakan forget gates merupakan bagian yang akan menentukan apakah suatu informasi akan digunakan kembali atau diingat atau dilupakan.
 
@@ -23,10 +28,10 @@ Bagian ketiga yaitu output gate, yaitu bagian yang akan memberikan informasi yan
 
 ![Alt text](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-o.png)
 
-### LSTM untuk Text Classification
-  Terdapat banyak algoritma lainnya yang dapat digunakan untuk klasifikasi text seperti SVM atau Neural Network pada umumnya. Akan tetapi sebagian besar algoritma tersebut tidak memberikan hasil yang baik jika dibandingkan dengan LSTM. Hal tersebut karena LSTM mampu untuk mengingat informasi penting dengan efektif.
+### LSTM untuk Natural Language Processing 
+  Terdapat banyak algoritma lainnya yang dapat digunakan untuk *natural language processing* khususnya klasifikasi text seperti SVM atau Neural Network pada umumnya. Akan tetapi sebagian besar algoritma tersebut tidak memberikan hasil yang baik jika dibandingkan dengan LSTM. Hal tersebut karena LSTM mampu untuk mengingat informasi penting dengan efektif.
 
-  Dengan menggunakan LSTM kita dapat menggunakan beberapa string kata untuk mengetahui kelas yang menjadi tempatnya. Hal tersebut sangat membantu dalam proses pengerjaan *natural language processing*. Jika menggunakan lapisan penyematan dan penyandian yang sesuai di LSTM, model akan dapat mengetahui arti sebenarnya dari *string* input dan akan memberikan kelas *output* yang paling akurat. 
+  Pemanfaatan LSTM dapat menggunakan beberapa string kata untuk mengetahui kelas yang menjadi tempatnya. Hal tersebut sangat membantu dalam proses pengerjaan *natural language processing*. Jika menggunakan lapisan penyematan dan penyandian yang sesuai di LSTM, model akan dapat mengetahui arti sebenarnya dari *string* input dan akan memberikan kelas *output* yang paling akurat. 
 
 
 ---
