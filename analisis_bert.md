@@ -4,9 +4,9 @@
 
 Implementasi model BERT dilakukan dengan menggunakan **Indobenchmark**. 
 
-Indobechmark merupakan base model yang digunakan untuk membangun model BERT pada proses *natural language processing* berbasis bahasa Indonesia.
+Indobechmark merupakan *base model* yang digunakan untuk membangun model BERT pada proses *natural language processing* berbasis bahasa Indonesia.
 
-Model pre-trained dilatih menggunakan *masked language modelling* (MLM) dan next sentence objective (NSP).
+Model *pre-trained* dilatih menggunakan *masked language modelling* (MLM) dan *next sentence objective* (NSP).
 
 ## **Alur Kerja**
 
