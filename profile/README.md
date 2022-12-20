@@ -48,13 +48,13 @@
 <a id="deskripsi-aplikasi"></a>
 # **Deskripsi Aplikasi**  [🔝](#daftar-isi)
 
-#### Sekitar **19 juta** orang yang berumur >15 tahun menderita mental illness berdasarkan data Riskesdas 2018. Litbangkes juga menyebutkan bahwa angka kasus bunuh diri setiap tahunnya hampir mencapai **2 ribu** orang. Selain itu, situs Integrasi Layanan Rehabilitasi Sosial menyatakan Indonesia **hanya memiliki 48 rumah sakit jiwa**, dengan 32 milik negara dan 16 swasta. Bahkan **8** provinsi belum memiliki rumah sakit jiwa. Tidak hanya itu, jumlah tenaga kesehatan jiwa profesional yang tersedia hanya berkisar **1.053 orang** berdasarkan penelitian terbaru. 
+#### Sekitar <ins>**19 juta**</ins> orang yang berumur >15 tahun menderita mental illness berdasarkan data Riskesdas 2018. Litbangkes juga menyebutkan bahwa angka kasus bunuh diri setiap tahunnya hampir mencapai <ins>**2 ribu**</ins> orang. Selain itu, situs Integrasi Layanan Rehabilitasi Sosial menyatakan Indonesia <ins>**hanya memiliki 48 rumah sakit jiwa**</ins>, dengan 32 milik negara dan 16 swasta. Bahkan **8** provinsi belum memiliki rumah sakit jiwa. Tidak hanya itu, jumlah tenaga kesehatan jiwa profesional yang tersedia hanya berkisar <ins>**1.053 orang**</ins> berdasarkan penelitian terbaru. 
 
 <p align="center" width="100%">
    ◆◆◆
 </p>
 
-#### Penjabaran tersebut menunjukkan bahwa . . .
+### Penjabaran tersebut menunjukkan bahwa . . .
 
 <h2 align="center" width="100%">
    <b>❗MENTAL  HEALTH  DI  INDONESIA MASIH CUKUP MENGKHAWATIRKAN❗<br>
@@ -62,7 +62,7 @@
 </h2>
 
 
- ### Untuk itulah kami menghadirkan **solusi**💡 berupa sebuah aplikasi yang dapat diakses **kapan saja**🕑🕝🕒, **di mana saja**🏙️🏡🏫, dan **oleh siapa saja**🧜🏻‍♀️🧑🏻‍💻👨🏻🕵🏻🫅🏻 **SECARA GRATIS**💸
+ ### Untuk itulah kami menghadirkan **solusi**💡 berupa sebuah aplikasi yang dapat diakses **kapan saja**🕑🕝🕒, **di mana saja**🏙️🏡🏫, dan **oleh siapa saja**🧜🏻‍♀️🧑🏻‍💻🕵🏻🫅🏻 **SECARA GRATIS**💸
 
 <h3 align="center" width="100%">
     👇🏻👇🏻👇🏻
@@ -87,8 +87,8 @@
 ## **Website Teman Ngorte** ➡️ **[Teman Ngorte](https://chatbot-app-three.vercel.app/)** [🔝](#daftar-isi)
 
 ## **Login**
-> ### Username : `pencurhat`  
-> ### Password : `curhatdong`
+> #### Username : `pencurhat`  
+> #### Password : `curhatdong`
 
 ---
 
