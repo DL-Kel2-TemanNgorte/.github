@@ -298,12 +298,12 @@ Bagian ketiga yaitu output gate, yaitu bagian yang akan memberikan informasi yan
 
 <a id="analisis-model-lstm"></a>
 
-### **Analisis Model LSTM** [🔝](#daftar-isi)
+## **Analisis Model LSTM** [🔝](#daftar-isi)
 
 <details>
 <summary><b>Klik untuk Lihat Detail⤵️</b></summary>
 
-### **Tahapan Penelitian**
+## **Tahapan Penelitian**
 
 Pada implementasi model LSTM ini, **terdapat tiga percobaan**. Perbedaan ketiga percobaan ini terdapat pada **jumlah kelas** dan **jumlah epoch** pada proses training serta penambahan proses **testing**.
 
@@ -311,7 +311,7 @@ Percobaan pertama hanya diambil 16 kelas dari total 18 kelas, dengan pengecualia
 
 Jumlah epoch pada proses training percobaan pertama adalah **120 epoch**, serta percobaan kedua dan ketiga adalah **150 epoch**.
 
-#### **Alur Kerja**
+### **Alur Kerja**
 
 1. **Text Preprocessing**, yang dilakukan dengan mengubah seluruh teks ke huruf kecil dan melakukan operasi regex untuk menghilangkan karakter atau simbol yang tidak diinginkan.
 2. **Split dan shuffle dataset**, untuk memisahkan dataset training dan uji untuk mengukur performa akurasi model terhadap data yang berbeda.
@@ -319,7 +319,7 @@ Jumlah epoch pada proses training percobaan pertama adalah **120 epoch**, serta 
 4. **Proses Training**, dimana model LSTM dilatih dengan dataset agar dapat melakukan klasifikasi teks chat dengan baik.
 5. **Evaluasi**, untuk melihat ukuran hasil pelatihan berdasarkan nilai akurasi dan loss dari proses training menggunakan dataset training dan uji.
 
-#### **Arsitektur Model**
+### **Arsitektur Model**
 
 Model diimplementasikan menggunakan framework TensorFlow yang disimpan dalam format HDF5. Visualisasi arsitektur model yang digunakan dapat dilihat pada gambar berikut.
 
@@ -330,7 +330,7 @@ Model diimplementasikan menggunakan framework TensorFlow yang disimpan dalam for
 
 Perbedaan arsitektur dari ketiga percobaan hanya terletak pada dense layer keluaran, dimana percobaan pertama berjumlah 16 unit neuron serta percobaan kedua dan ketiga berjumlah 18 unit neuron. Jumlah unit ini disesuaikan dengan jumlah kelas keluaran model.
 
-#### **Implementasi Model**
+### **Implementasi Model**
 
 Implementasi model menggunakan TensorFlow dilakukan secara sekuensial, dengan menggabungkan beberapa layer secara berurutan. Parameter yang diatur dalam implementasi secara lebih jelas dapat dilihat pada source code dalam blok kode berikut.
 
@@ -345,7 +345,7 @@ model = tf.keras.Sequential([
 ])
 ```
 
-#### **Penjelasan Arsitektur**
+### **Penjelasan Arsitektur**
 
 Model diimplementasikan dengan total 6 lapisan secara berurutan, yang antara lain adalah sebagai berikut.
 
@@ -356,7 +356,7 @@ Model diimplementasikan dengan total 6 lapisan secara berurutan, yang antara lai
 - **Dense** layer digunakan sebagai lapisan fully connected neural network, dengan jumlah neuron sebanyak 64 dan fungsi aktivasi relu.
 - Digunakan **Dense** layer pada lapisan keluaran untuk menghasilkan output 16 kelas yang diklasifikasi. Fungsi aktivasi yang digunakan adalah **softmax** agar dapat memberikan keluaran probabilitas masing-masing kelas.
 
-#### **Evaluasi Model**
+### **Evaluasi Model**
 
 Model dilatih dengan dataset yang dibagi menjadi data training dan uji, dengan data **training 80%** dan **data uji 20%**. Proses training dilakukan dengan **ukuran batch 128**.
 
@@ -368,7 +368,7 @@ Optimizer yang digunakan adalah `Adam` karena merupakan optimizer adaptif yang d
 
 Metrik keluaran model yang ingin diukur adalah `accuracy`, untuk melihat kesesuaian hasil klasifikasi model.
 
-#### **Grafik Nilai Loss dan Akurasi LSTM**
+### **Grafik Nilai Loss dan Akurasi LSTM**
 
 Evaluasi hasil training model dilakukan dengan melihat nilai loss dan akurasi pada proses training dan validasi dengan data uji. Grafik nilai loss dan akurasi dapat dilihat pada gambar berikut.
 
@@ -393,7 +393,7 @@ Evaluasi hasil training model dilakukan dengan melihat nilai loss dan akurasi pa
 
     Grafik nilai loss menunjukkan bahwa nilai loss pada proses training mengalami penurunan signifikan dari 2.81 menjadi 0.36, sedangkan nilai loss validasi terlihat naik-turun (terutama mulai dari epoch ke-80). Hasil penurunan nilai loss validasi yang didapatkan yaitu dari 2.6 menjadi 2.27. Hal ini juga menunjukkan bahwa model berhasil melakukan pembelajaran namun masih belum optimal.
 
-###### **Hasil Evaluasi Model LSTM**
+#### **Hasil Evaluasi Model LSTM**
 
 - Hasil Percobaan Pertama
   
@@ -429,7 +429,7 @@ Hasil percobaan kedua mendapatkan performa akurasi dan loss yang lebih buruk, ka
     
 Hasil percobaan ketiga mendapatkan performa akurasi yang lebih buruk dari percobaan pertama, namun lebih baik dari percobaan kedua, karena terdapat perbedaan jumlah kelas. Dimana percobaan pertama hanya terdapat 16 kelas, sedangkan percobaan kedua dan ketiga terdapat 18 kelas. Percobaan ketiga memiliki jumlah epoch yang sama dengan percobaan kedua, namun performanya meningkat cukup signifikan terutama pada training accuracy-nya. Hasil percobaan ketiga inilah yang akan di-testing pada tahap selanjutnya karena memiliki akurasi yang lebih baik dari percobaan ketiga dan nilai loss yang lebih baik dari percobaan pertama.
 
-###### **Hasil Testing Model LSTM**
+#### **Hasil Testing Model LSTM**
     
 Hasil testing model LSTM pada percobaan ketiga dapat dilihat pada tabel berikut.
     
@@ -458,10 +458,10 @@ Proses pembuatan model LSTM (*Long-Short Term Memory*) dilakukan dalam 3 tahap, 
 ### **1. Training**
 Pada tahap *training*, beberapa proses yang dilakukan antara lain **persiapan data training**, **pembuatan arsitektur model**, dan **pelatihan model**.
 
-###### 1.1 Persiapan Data Training
+#### **1.1 Persiapan Data Training**
 Pada tahap ini, seluruh dataset yang digunakan akan dipecah (*split*) menjadi beberapa *subset*, yaitu data *train* (data latih) dan data *test* (data uji). Data *train* dan data *test* dibuat dengan fungsi `train_test_split` dari *library* sklearn. Seluruh *dataset* dipecah menjadi dua *subset*, yaitu *data train* dan *data test* dengan proporsi 80% dan 20%. Data *train* kemudian digunakan pada tahap *training* dan data *test* digunakan pada tahap *testing*.
 
-###### 1.2 Pembuatan Arsitektur Model
+#### **1.2 Pembuatan Arsitektur Model**
 
 Pada tahap ini, dilakukan pembuatan arsitektur model LSTM dengan metode *sequential* menggunakan *library* TensorFlow Keras. Berikut merupakan arsitektur dari model LSTM yang dibuat.
 
@@ -499,7 +499,7 @@ Percobaan 2 dan 3
 
 Hasil dari proses pelatihan model (evaluasi) dibahas lebih lanjut pada bagian analisis model LSTM.
 
-##### 2. Testing Model
+### **2. Testing Model**
 Pada tahap ini, model akan melakukan prediksi terhadap data uji (*test*) yang belum pernah dilihat sebelumnya. Hal ini bertujuan untuk mengukur performa model untuk melakukan generalisasi. Data uji yang digunakan merupakan hasil split dataset dengan rasio 20%. Hasil dari tahap testing dibahas lebih lanjut pada bagian analisis model LSTM.
 
 </details>
@@ -780,13 +780,13 @@ Hasil dari proses pelatihan model akan dibahas pada tahap evaluasi.
 <summary><b>Klik untuk Lihat Detail⤵️</b></summary>
 
 
-#### **Perbandingan**
+### **Perbandingan**
 
 Selanjutnya, hasil percobaan terbaik dibandingkan dengan beberapa model yang juga diimplementasikan. Tim kami mengimplementasikan beberapa model deep learning yang berbeda untuk membuat sebuah AI Chatbot, yaitu model LSTM, Bidirectional LSTM, dan BERT. Seluruh proses yang berkaitan dengan persiapan data dibuat sama persis untuk menjaga konsistensi data yang menjadi masukan model sekaligus untuk mendapatkan ukuran perbandingan antar model.
 
 ---
 
-##### **Perbandingan Implementasi LSTM dengan BiLSTM**
+#### **Perbandingan Implementasi LSTM dengan BiLSTM**
 
 Implementasi BiLSTM pada aplikasi kami menyerupai dengan implementasi LSTM. Letak perbedaan dari kedua implementasi ini terdapat pada lapisan LSTM pada arsitektur yang diganti dengan lapisan BiLSTM.
 
@@ -819,7 +819,7 @@ Model BiLSTM menghasilkan akurasi yang lebih tinggi karena menggunakan lapisan b
 
 ---
 
-##### **Perbandingan Implementasi LSTM dengan BERT**
+#### **Perbandingan Implementasi LSTM dengan BERT**
 
 Model BERT yang diimplementasikan dalam percobaan ini adalah model **IndoBERT** `indobert-base-p2` yang didapat dari [huggingface](https://huggingface.co/indobenchmark/indobert-base-p2). Model diimplementasikan dengan AutoModel `TFAutoModelForSequenceClassification`, yang dapat membangun model klasifikasi menggunakan basis model lain.
 
@@ -848,7 +848,7 @@ Hasl ini menunjukkan bahwa model BERT yang diimplementasikan belum berhasil mela
 
 ---
 
-##### **Perbandingan Implementasi LSTM, BiLSTM, dan BERT**
+#### **Perbandingan Implementasi LSTM, BiLSTM, dan BERT**
 
 Perbandingan terakhir digunakan untuk melihat model terbaik yang dapat digunakan pada aplikasi chatbot berdasarkan performa model yang telah diteliti, yang dapat dilihat pada tabel berikut.
 
