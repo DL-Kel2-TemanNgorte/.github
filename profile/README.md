@@ -16,6 +16,7 @@
 ---
 
 <a id="daftar-isi"></a>
+
 # **Daftar Isi**
 <details>
 <summary><b>Klik untuk Lihat Detail⤵️</b></summary>
@@ -46,6 +47,7 @@
 ---
 
 <a id="deskripsi-aplikasi"></a>
+
 # **Deskripsi Aplikasi**  [🔝](#daftar-isi)
 
 #### Sekitar <ins>**19 juta**</ins> orang yang berumur >15 tahun menderita mental illness berdasarkan data Riskesdas 2018. Litbangkes juga menyebutkan bahwa angka kasus bunuh diri setiap tahunnya hampir mencapai <ins>**2 ribu**</ins> orang. Selain itu, situs Integrasi Layanan Rehabilitasi Sosial menyatakan Indonesia <ins>**hanya memiliki 48 rumah sakit jiwa**</ins>, dengan 32 milik negara dan 16 swasta. Bahkan **8** provinsi belum memiliki rumah sakit jiwa. Tidak hanya itu, jumlah tenaga kesehatan jiwa profesional yang tersedia hanya berkisar <ins>**1.053 orang**</ins> berdasarkan penelitian terbaru. 
@@ -93,6 +95,7 @@
 ---
 
 <a id="tutorial"></a>
+
 # **Tutorial** [🔝](#daftar-isi)
 
 
@@ -116,9 +119,9 @@
 ### Cara Menggunakan Aplikasi
 Aplikasi ini dapat digunakan dengan **2 cara login** yaitu sebagai berikut
 
-#### 1. Login dapat dilakukan dengan menggunakan Username dan Password
+### 1. Login dapat dilakukan dengan menggunakan Username dan Password
 
-###### Step 1 : Login
+#### **Step 1 : Login**
 Masukkan Username dan Password berikut
 
 > Username : `pencurhat`  
@@ -136,54 +139,54 @@ Pastikan Username dan Password sesuai, apabila tidak maka akan muncul **alert** 
 ![alertpass](https://user-images.githubusercontent.com/80409196/208442026-dd7bf761-8459-4c2b-8c07-929bae71782e.png)
 
 
-###### Step 2 : 
+#### **Step 2 :**
 Apabila kombinasi Username dan Password sudah sesuai, klik Pada tombol Login
 ![test login2](https://user-images.githubusercontent.com/80409196/208438176-cc6e56e5-4dc1-400f-bbec-e4300ee3f8f3.png)
 
-###### Step 3 : 
+#### **Step 3 :** 
 Klik Pada Tombol "Yuk Curhat!"
 ![yukcurhat](https://user-images.githubusercontent.com/80409196/208438298-63e6d08c-d5a2-4763-9754-1d2b9c910bd8.png)
 
-###### Step 4 : 
+#### **Step 4 :** 
 Sampaikan keluh kesahmu pada TimpalBot! TimpalBot akan menjadi teman curhatmu!
 ![chat](https://user-images.githubusercontent.com/80409196/208438371-13137646-9b63-42ba-9a56-7a0d02452b60.png)
 
-###### Step 5 : 
+#### **Step 5 :** 
 Untuk kembali atau menutup bubble chat, dapat dilakukan dengan klik pada tombol **back**
 ![back2](https://user-images.githubusercontent.com/80409196/208438451-e1dbc417-52b4-4acc-9915-766822c8f7d6.png)
 
-###### Step 6 : 
+#### **Step 6 :** 
 Untuk keluar dari aplikasi, dapat dilakukan dengan klik pada tombol **logout**
 ![logoutweb3](https://user-images.githubusercontent.com/80409196/208438521-643ba0df-1f4e-48ed-bfcd-6d44eb20feac.png)
 
-###### Step 7 : 
+#### **Step 7 :** 
 Untuk konfirmasi logout, dapat dilakukan dengan klik **OK** pada pop up konfirmasi logout
 ![notif logout2](https://user-images.githubusercontent.com/80409196/208438706-d46ab361-9dd4-46ab-8f20-b4a31f76607e.png)
 
-#### 2. Menggunakan **Login as Guest**
+### 2. Menggunakan **Login as Guest**
 Untuk menggunakan Login as Guest, pengguna **tidak perlu** memasukkan **username dan password**
 
-###### Step 1 : 
+#### **Step 1 :** 
 Klik Pada Tombol Login as Guest
 ![loginguest](https://user-images.githubusercontent.com/80409196/208438979-8fa47924-92ca-44f4-ade1-b944d3d57b34.png)
 
-###### Step 2 : 
+#### **Step 2 :** 
 Klik Pada Tombol "Yuk Curhat!"
 ![welcomeguest](https://user-images.githubusercontent.com/80409196/208439334-12eb3602-5317-4451-a7ce-48913a0a8f30.png)
 
-###### Step 3 : 
+#### **Step 3 :** 
 Sampaikan keluh kesahmu pada TimpalBot! TimpalBot akan menjadi teman curhatmu!
 ![chat](https://user-images.githubusercontent.com/80409196/208438371-13137646-9b63-42ba-9a56-7a0d02452b60.png)
 
-###### Step 4 : 
+#### **Step 4 :** 
 Untuk kembali atau menutup bubble chat, dapat dilakukan dengan klik pada tombol **back**
 ![back2](https://user-images.githubusercontent.com/80409196/208438451-e1dbc417-52b4-4acc-9915-766822c8f7d6.png)
 
-###### Step 5 : 
+#### **Step 5 :** 
 Untuk keluar dari aplikasi, dapat dilakukan dengan klik pada tombol **logout**
 ![backguest2](https://user-images.githubusercontent.com/80409196/208440411-70f801fb-4330-4e5c-9fc1-f1c15e409132.png)
 
-###### Step 6 : 
+#### **Step 6 :** 
 Untuk konfirmasi logout, dapat dilakukan dengan klik **OK** pada pop up konfirmasi logout
 ![logoutguest2](https://user-images.githubusercontent.com/80409196/208440696-4991064c-3104-46cc-a536-f64f2a20471d.png)
 
@@ -193,6 +196,7 @@ Untuk konfirmasi logout, dapat dilakukan dengan klik **OK** pada pop up konfirma
 ---
 
 <a id="arsitektur-aplikasi"></a>
+
 # **Arsitektur Aplikasi** [🔝](#daftar-isi)
 
 <p align="center" width="100%">
@@ -204,6 +208,7 @@ Arsitektur dari chatbot Teman Ngorte terdiri dari 2 bagian yaitu Front End dan B
 ---
 
 <a id="dataset"></a>
+
 # **Dataset** [🔝](#daftar-isi)
 
 Dataset yang digunakan bersumber dari berbagai *website* antara lain sebagai berikut.
@@ -242,6 +247,7 @@ Data dari sumber-sumber tersebut dikumpulkan menjadi satu *file* berformat .csv 
 <a id="algoritma-deep-learning"></a>
 # **Algoritma Deep Learning** 
 <a id="lstm"></a>
+
 ## **LSTM** [🔝](#daftar-isi)
 
 <details>
@@ -250,29 +256,38 @@ Data dari sumber-sumber tersebut dikumpulkan menjadi satu *file* berformat .csv 
 ### Penjelasan Algoritma LSTM
 Algoritma LSTM atau *Long Short Term Memory* merupakan bentuk pengembangan dari *Reccurent Neural Network* yang dapat melakukan prediksi berdasarkan data yang tersimpan dalam jangka waktu panjang sekaligus dapat menghapus data yang sudah tidak perlu digunakan.
 
-![Alt text](https://miro.medium.com/max/828/1*7cMfenu76BZCzdKWCfBABA.webp)
+<p align="center" width="100%">
+    <img src="https://miro.medium.com/max/828/1*7cMfenu76BZCzdKWCfBABA.webp"> 
+</p>
 
 Berdasarkan penelitian yang dilakukan oleh **Hochreiter dan Schmidhuber** di tahun 1997 yang kemudian menjadi cikal bakal arsitektur LSTM modern, LSTM terbukti dapat menyelesaikan permasalahan yang cukup kompleks dan belum atau kurang dapat diselesaikan oleh algoritma *reccurent* lainnya.
 
-#### Gates Pada LSTM 
+### **Gates Pada LSTM** 
 Terdapat tiga bagian gates yang hanya digunakan pada algoritma *Long Short-Term Memory*, dimana masing-masing memiliki fungsinya tersendiri. Penjelasan mengenai gates tersebut adalah sebagai berikut. 
 
-###### Forget Gate
+#### **Forget Gate**
 Bagian pertama yang dinamakan forget gates merupakan bagian yang akan menentukan apakah suatu informasi akan digunakan kembali atau diingat atau dilupakan.
 
-![Alt text](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-f.png)
+<p align="center" width="100%">
+    <img src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-f.png"> 
+</p>
 
-###### Input Gate
+
+#### **Input Gate**
 Bagian kedua yaitu input gate yang berfungsi untuk mempelajari informasi baru yang diinputkan pada bagian ini
 
-![Alt text](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-i.png)
+<p align="center" width="100%">
+    <img src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-i.png"> 
+</p>
 
-###### Output Gate
+#### **Output Gate**
 Bagian ketiga yaitu output gate, yaitu bagian yang akan memberikan informasi yang telah diperbarui pada timestamp saat itu ke timestamp berikutnya
 
-![Alt text](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-o.png)
+<p align="center" width="100%">
+    <img src="http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-focus-o.png"> 
+</p>
 
-#### LSTM untuk Text Classification
+### LSTM untuk Text Classification
   Terdapat banyak algoritma lainnya yang dapat digunakan untuk klasifikasi text seperti SVM atau Neural Network pada umumnya. Akan tetapi sebagian besar algoritma tersebut tidak memberikan hasil yang baik jika dibandingkan dengan LSTM. Hal tersebut karena LSTM mampu untuk mengingat informasi penting dengan efektif.
 
   Dengan menggunakan LSTM kita dapat menggunakan beberapa string kata untuk mengetahui kelas yang menjadi tempatnya. Hal tersebut sangat membantu dalam proses pengerjaan *natural language processing*. Jika menggunakan lapisan penyematan dan penyandian yang sesuai di LSTM, model akan dapat mengetahui arti sebenarnya dari *string* input dan akan memberikan kelas *output* yang paling akurat. 
@@ -282,12 +297,13 @@ Bagian ketiga yaitu output gate, yaitu bagian yang akan memberikan informasi yan
 ---
 
 <a id="analisis-model-lstm"></a>
+
 ### **Analisis Model LSTM** [🔝](#daftar-isi)
 
 <details>
 <summary><b>Klik untuk Lihat Detail⤵️</b></summary>
 
-##### **Tahapan Penelitian**
+### **Tahapan Penelitian**
 
 Pada implementasi model LSTM ini, **terdapat dua percobaan**. Perbedaan kedua percobaan ini terdapat pada **jumlah kelas**, dan **jumlah epoch** pada proses training.
 
@@ -295,7 +311,7 @@ Percobaan pertama hanya diambil 16 kelas dari total 18 kelas, dengan pengecualia
 
 Jumlah epoch pada proses training percobaan pertama adalah **120 epoch**, dan percobaan kedua adalah **150 epoch**.
 
-##### **Alur Kerja**
+#### **Alur Kerja**
 
 1. **Text Preprocessing**, yang dilakukan dengan mengubah seluruh teks ke huruf kecil dan melakukan operasi regex untuk menghilangkan karakter atau simbol yang tidak diinginkan.
 2. **Split dan shuffle dataset**, untuk memisahkan dataset training dan uji untuk mengukur performa akurasi model terhadap data yang berbeda.
@@ -303,7 +319,7 @@ Jumlah epoch pada proses training percobaan pertama adalah **120 epoch**, dan pe
 4. **Proses Training**, dimana model LSTM dilatih dengan dataset agar dapat melakukan klasifikasi teks chat dengan baik.
 5. **Evaluasi**, untuk melihat ukuran hasil pelatihan berdasarkan nilai akurasi dan loss dari proses training menggunakan dataset training dan uji.
 
-##### **Arsitektur Model**
+#### **Arsitektur Model**
 
 Model diimplementasikan menggunakan framework TensorFlow yang disimpan dalam format HDF5. Visualisasi arsitektur model yang digunakan dapat dilihat pada gambar berikut.
 
@@ -314,7 +330,7 @@ Model diimplementasikan menggunakan framework TensorFlow yang disimpan dalam for
 
 Perbedaan arsitektur dari kedua percobaan hanya terletak pada dense layer keluaran, dimana percobaan pertama berjumlah 16 unit neuron dan percobaan kedua berjumlah 18 unit neuron. Jumlah unit ini disesuaikan dengan jumlah kelas keluaran model.
 
-###### **Implementasi Model**
+#### **Implementasi Model**
 
 Implementasi model menggunakan TensorFlow dilakukan secara sekuensial, dengan menggabungkan beberapa layer secara berurutan. Parameter yang diatur dalam implementasi secara lebih jelas dapat dilihat pada source code dalam blok kode berikut.
 
@@ -329,7 +345,7 @@ model = tf.keras.Sequential([
 ])
 ```
 
-###### **Penjelasan Arsitektur**
+#### **Penjelasan Arsitektur**
 
 Model diimplementasikan dengan total 6 lapisan secara berurutan, yang antara lain adalah sebagai berikut.
 
@@ -340,7 +356,7 @@ Model diimplementasikan dengan total 6 lapisan secara berurutan, yang antara lai
 - **Dense** layer digunakan sebagai lapisan fully connected neural network, dengan jumlah neuron sebanyak 64 dan fungsi aktivasi relu.
 - Digunakan **Dense** layer pada lapisan keluaran untuk menghasilkan output 16 kelas yang diklasifikasi. Fungsi aktivasi yang digunakan adalah **softmax** agar dapat memberikan keluaran probabilitas masing-masing kelas.
 
-##### **Evaluasi Model**
+#### **Evaluasi Model**
 
 Model dilatih dengan dataset yang dibagi menjadi data training dan uji, dengan data **training 80%** dan **data uji 20%**. Proses training dilakukan dengan **ukuran batch 128**.
 
@@ -352,7 +368,7 @@ Optimizer yang digunakan adalah `Adam` karena merupakan optimizer adaptif yang d
 
 Metrik keluaran model yang ingin diukur adalah `accuracy`, untuk melihat kesesuaian hasil klasifikasi model.
 
-###### **Grafik Nilai Loss dan Akurasi LSTM**
+#### **Grafik Nilai Loss dan Akurasi LSTM**
 
 Evaluasi hasil training model dilakukan dengan melihat nilai loss dan akurasi pada proses training dan validasi dengan data uji. Grafik nilai loss dan akurasi dapat dilihat pada gambar berikut.
 
@@ -370,7 +386,7 @@ Evaluasi hasil training model dilakukan dengan melihat nilai loss dan akurasi pa
 
     Grafik nilai loss menunjukkan bahwa nilai loss pada proses training mengalami penurunan signifikan dari 2.75 menjadi 0.8, dan nilai loss validasi dari 2.5 menjadi 1.73. Hal ini juga menunjukkan bahwa model berhasil melakukan pembelajaran dengan baik namun masih belum optimal.
 
-###### **Hasil Evaluasi Model LSTM**
+#### **Hasil Evaluasi Model LSTM**
 
 - Hasil Percobaan Pertama
   
@@ -402,29 +418,30 @@ Hasil percobaan kedua mendapatkan performa akurasi dan loss yang lebih buruk, ka
 ---
 
 <a id="training-testing-lstm"></a>
+
 ### **Training dan Testing LSTM** [🔝](#daftar-isi)
 
 <details>
 <summary><b>Klik untuk Lihat Detail⤵️</b></summary>
 
-#### LSTM
+## LSTM
 ---
 Proses pembuatan model LSTM (*Long-Short Term Memory*) dilakukan dalam 2 tahap, yaitu *training* dan *evaluation*. Berikut merupakan penjelasan masing-masing tahapannya.
 
-##### 1. Training
+### **1. Training**
 Pada tahap *training*, beberapa proses yang dilakukan antara lain **persiapan data training**, **pembuatan arsitektur model**, dan **pelatihan model**.
 
-###### 1.1 Persiapan Data Training
+#### **1.1 Persiapan Data Training**
 Pada tahap ini, seluruh dataset yang digunakan akan dipecah (*split*) menjadi beberapa *subset*, yaitu data *train* (data latih) dan data *validation* (data validasi). Data *train* dan data *validation* dibuat dengan fungsi `train_test_split` dari *library* sklearn. Seluruh *dataset* dipecah menjadi dua *subset*, yaitu *data train* dan *data validation* dengan proporsi 80% dan 20%. Data *train* kemudian digunakan pada tahap *training* dan data *validation* digunakan pada tahap *evaluation*.
 
-###### 1.2 Pembuatan Arsitektur Model
+#### **1.2 Pembuatan Arsitektur Model**
 Pada tahap ini, dilakukan pembuatan arsitektur model LSTM dengan metode *sequential* menggunakan *library* TensorFlow Keras. Berikut merupakan arsitektur dari model LSTM yang dibuat.
 
 ![model_plot_lstm18](https://user-images.githubusercontent.com/76557114/208538594-0a5d6a4f-e8b3-4b0f-9a2f-cbde9a022deb.png)
 
 Gambar di atas merupakan arsitektur dari model LSTM yang telah dibuat. Terdapat lapisan input yang berukuran 150 kolom. Input tersebut kemudian mengirimkan data pada lapisan ***Embedding*** dengan jumlah *vocabulary* maksimum sebesar 3000 dan dimensi *embedding* berukuran 150. Hasil *embedding* kemudian akan dikirimkan pada lapisan ***SpatialDropout1D***. Setelah itu, data akan dikirimkan kepada lapisan LSTM pertama dengan jumlah unit sebesar 64. Lapisan berikutnya adalah lapisan LSTM kedua (*stacked*) dengan jumlah unit yang sama yaitu 64. Setelah data melalui lapisan LSTM, kemudian akan dikirim pada lapisan ***Dense*** (neuron biasa) dengan jumlah unit sebesar 64 dan *activation function* ReLu. Hasil dari lapisan ini kemudian akan dikirimkan pada lapisan terakhir (*output layer*) dengan total *output* sebesar 18.
 
-###### 1.3 Training Model
+#### **1.3 Training Model**
 Pada tahap ini, data akan dipelajari representasinya oleh model yang telah dibuat. Pada tahap ini, digunakan dua buah *subset* data yaitu data *train* dan data *validation*. Data *train* digunakan untuk pelatihan model, sementara data *validation* digunakan untuk mengukur performa model pada data yang belum pernah dilihat. Berikut merupakan konfigurasi dari tahap pelatihan model LSTM.
 
 | No. | Hyperparameter | Nilai                           |
@@ -441,6 +458,7 @@ Hasil dari proses pelatihan model akan dibahas pada tahap evaluasi.
 ---
 
 <a id="bilstm"></a>
+
 ## **biLSTM** [🔝](#daftar-isi)
 
 <details>
@@ -497,16 +515,16 @@ Hasil dari tahap pelatihan (*training*) model mencapai akurasi sebesar 94% dan *
 <details>
 <summary><b>Klik untuk Lihat Detail⤵️</b></summary>
 
-#### BiLSTM
+## BiLSTM
 
 Proses pembuatan model BiLSTM (*Bidirectional Long-Short Term Memory*) dilakukan dalam 3 tahap, yaitu *training* dan *testing*. Berikut merupakan penjelasan masing-masing tahap.
-##### 1. Training
+### **1. Training**
 Pada tahap *training*, beberapa proses yang dilakukan antara lain **persiapan data latih**, **pembuatan arsitektur model**, **pelatihan model**.
 
-###### 1.1 Persiapan Data Latih
+#### **1.1 Persiapan Data Latih**
 Pada proses persiapan data latih, seluruh *dataset* yang digunakan akan dipecah (*split*) menjadi beberapa *subset*, diantaranya data *train* (latih) dan data *testing* (uji). Data *train* dan data *testing* dibuat dengan melakukan *split* terhadap *dataset* dengan menggunakan fungsi `train_test_split` dari *library* sklearn. Seluruh *dataset* dipecah menjadi dua (2) buah *subset*, yaitu *data train* dan *data testing* dengan proporsi 80% dan 20%. Data *train* kemudian digunakan pada tahap *training* dan data *testing* digunakan pada tahap *testing*.
 
-###### 1.2 Pembuatan Arsitektur Model
+#### **1.2 Pembuatan Arsitektur Model**
 Pada proses ini, dilakukan pembuatan arsitektur model BiLSTM dengan metode *sequential* menggunakan *library* Keras. Berikut merupakan arsitektur model BiLSTM yang dibuat.
 
 | ![Arsitektur BiLSTM](https://i.ibb.co/m04Sxdr/arsitektur-Bi-LSTM.png) |
@@ -514,7 +532,7 @@ Pada proses ini, dilakukan pembuatan arsitektur model BiLSTM dengan metode *sequ
 
 Gambar di atas merupakan arsitektur dari model BiLSTM yang telah dibuat. Arsitektur pertama yaitu lapisan input yang berukuran 50 kolom. Input tersebut kemudian mengirimkan data pada lapisan ***Embedding*** dengan *vocabulary* maksimum berjumlah 2500 dan dimensi *embedding* berukuran 50. Hasil *embedding* kemudian akan dikirimkan pada lapisan ***SpatialDropout1D***. Setelah itu, data akan dikirimkan kepada lapisan BiLSTM pertama dengan jumlah unit sebesar 128 dan *activation function* ReLu. Lapisan berikutnya adalah lapisan BiLSTM kedua (*stacked*) dengan jumlah unit yang sama yaitu 128. Setelah data melalui lapisan BiLSTM, kemudian akan dikirim pada lapisan ***Dense*** (neuron biasa) dengan jumlah unit sebesar 64. Hasil dari lapisan ini kemudian akan dikirimkan pada lapisan terakhir (*output layer*) dengan total *output* sebesar 18.
 
-###### 1.3 Pelatihan Model
+#### **1.3 Pelatihan Model**
 Pada proses ini, data akan digunakan dan dipelajari representasinya oleh model yang telah dibuat. Pada tahap ini, digunakan dua (2) buah *subset* data yaitu data *train* dan data *validation*. Data *train* digunakan untuk pelatihan model sementara data *validation* digunakan untuk mengukur performa model pada data baru/belum pernah dilihat. Data *validation* didapatkan dengan memecah (*split*) data *train* dengan proporsi sebesar 20%. Berikut merupakan konfigurasi dari tahap pelatihan model.
 | No. | Hyperparameter | Nilai                           |
 |-----|----------------|---------------------------------|
@@ -525,7 +543,7 @@ Pada proses ini, data akan digunakan dan dipelajari representasinya oleh model y
 
 Hasil dari proses pelatihan model akan dibahas pada tahap evaluasi.
 
-##### 2. Testing
+### **2. Testing**
 Pada tahap ini, model akan melakukan prediksi terhadap data uji (*testing*) yang belum pernah dilihat sebelumnya. Hal ini bertujuan untuk mengukur performa model untuk melakukan generalisasi. Data uji yang digunakan merupakan hasil *split* *dataset* dengan rasio 20% sehingga menghasilkan *subset* data dengan jumlah 397 observasi. Hasil *testing* akan dibahas pada tahap evaluasi.
 
 </details>
@@ -538,7 +556,7 @@ Pada tahap ini, model akan melakukan prediksi terhadap data uji (*testing*) yang
 <details>
 <summary><b>Klik untuk Lihat Detail⤵️</b></summary>
 
-### Penjelasan Algoritma BERT
+## Penjelasan Algoritma BERT
 Algoritma BERT atau *Bidirectional Encoder Representations from Transformers* adalah teknik berbasis jaringan saraf untuk *pre-training* Natural Language. BERT dirancang untuk membantu komputer memahami makna bahasa ambigu dalam teks dengan menggunakan teks di sekitarnya untuk membangun konteks. Kerangka kerja BERT telah dilatih sebelumnya menggunakan teks dari Wikipedia dan dapat disesuaikan dengan kumpulan data pertanyaan dan jawaban.
 
 ![GoogleBert_1920](https://user-images.githubusercontent.com/76557114/208561287-ad16340c-16e7-481a-a7fc-7ef75d94daab.jpg)
@@ -546,7 +564,7 @@ Algoritma BERT atau *Bidirectional Encoder Representations from Transformers* ad
 Model ini diusulkan dan diterbitkan oleh Jacob Devlin dan rekan-rekannya dari Google Research pada tahun 2018. Selanjutnya di tahun 2019, Google mengumumkan bahwa BERT mulai diimplementasikan di mesin pencarinya. Kemudian pada akhir tahun 2020, BERT digunakan di hampir semua kueri pencarian bahasa Inggris. BERT juga sudah bersifat open-source dari Google pada November 2018. Artinya, siapa pun dapat menggunakan BERT untuk melatih sistem pemrosesan bahasa mereka sendiri untuk menjawab pertanyaan atau tugas lain.
 
 
-#### Cara Kerja Algoritma BERT
+### Cara Kerja Algoritma BERT
 BERT memanfaatkan Transformer, mekanisme *attention* yang mempelajari hubungan kontekstual antara kata (atau sub-kata) dalam sebuah teks. Berbeda dengan model terarah, yang membaca input teks secara berurutan (kiri ke kanan atau kanan ke kiri), *encoder* Transformer membaca seluruh urutan kata sekaligus. Oleh sebab itu, BERT dianggap dua arah, meskipun akan lebih akurat untuk mengatakan bahwa itu tidak terarah. Karakteristik ini memungkinkan model mempelajari konteks sebuah kata berdasarkan seluruh lingkungannya (kiri dan kanan kata).
 
 BERT juga merupakan teknik NLP pertama yang hanya mengandalkan mekanisme *self-attention*, yang dimungkinkan oleh *bidirectional* Transformer di pusat desain BERT. Ini penting karena sering kali sebuah kata dapat berubah artinya saat kalimat berkembang. Setiap kata yang ditambahkan menambah arti keseluruhan dari kata yang difokuskan oleh algoritma NLP. Semakin banyak kata yang hadir secara total dalam setiap kalimat atau frase, semakin ambigu kata yang menjadi fokus. BERT memperhitungkan makna yang diperbesar dengan membaca dua arah, memperhitungkan efek dari semua kata lain dalam sebuah kalimat pada kata fokus dan menghilangkan momentum kiri-ke-kanan yang mencondongkan kata-kata menuju makna tertentu saat kalimat berkembang.
@@ -556,16 +574,16 @@ BERT juga merupakan teknik NLP pertama yang hanya mengandalkan mekanisme *self-a
 Misalnya, pada gambar di atas, BERT menentukan kata sebelumnya dalam kalimat yang dirujuk oleh kata "*is*", dan kemudian menggunakan mekanisme perhatiannya untuk menimbang opsi. Kata dengan skor terhitung tertinggi dianggap asosiasi yang benar (yaitu, "*is*" mengacu pada "*animal*", bukan "*he*"). Jika frasa ini adalah permintaan pencarian, hasilnya akan mencerminkan pemahaman yang lebih halus dan lebih tepat yang dicapai BERT ini.
 
 
-#### Pemanfaatan BERT
+### Pemanfaatan BERT
 BERT unggul dan dapat dimanfaatkan untuk beberapa tugas berikut.
 
-###### Pembangkit bahasa berbasis *sequence-to-sequence*, seperti:
+#### **Pembangkit bahasa berbasis *sequence-to-sequence*, seperti:**
 - *Question answering*
 - *Abstract summarization*
 - *Sentence prediction*
 - *Conversational response generation*
 
-###### Natural Language Understanding, seperti:
+#### **Natural Language Understanding, seperti:**
 - *Polysemy and coreference resolution*
 - *Word sense disambiguation*
 - *Natural language inference*
@@ -576,6 +594,7 @@ BERT unggul dan dapat dimanfaatkan untuk beberapa tugas berikut.
 ---
 
 <a id="analisis-model-bert"></a>
+
 ### **Analisis Model BERT** [🔝](#daftar-isi)
 
 <details>
@@ -681,16 +700,16 @@ Hasil evaluasi model menunjukkan bahwa model BERT memiliki performa yang **buruk
 #### BERT
 ---
 Proses pembuatan model BERT (*Bidirectional Encoder for Representation Transformers*) dilakukan dalam 3 tahap, yaitu *training*, *testing*, dan *evaluation*, Berikut merupakan penjelasan masing-masing tahap.
-###### 1. Training
+### **1. Training**
 Pada tahap *training*, beberapa proses yang dilakukan antara lain **persiapan data latih**, **pembuatan arsitektur model**, **pelatihan model**.
 
-###### 1.1 Persiapan Data Latih
+#### **1.1 Persiapan Data Latih**
 Pada proses persiapan data latih, seluruh *dataset* yang digunakan akan dipecah (*split*) menjadi beberapa *subset*, diantaranya data *train* (latih) dan data *validation* (validasi). Data *train* dan data *validation* dibuat dengan melakukan *split* terhadap *dataset* dengan menggunakan fungsi `train_test_split` dari *library* sklearn. Seluruh *dataset* dipecah menjadi dua (2) buah *subset*, yaitu *data train* dan *data validation* dengan proporsi 80% dan 20%. Data *train* dan data *validation* kemudian digunakan pada tahap *training*.
 
-###### 1.2 Pembuatan Arsitektur Model
+#### **1.2 Pembuatan Arsitektur Model**
 Pada proses ini, dilakukan pembuatan arsitektur model BERT dengan menggunakan model *pre-trained* indoBERT yang berasal dari indoBenchmark. IndoBERT merupakan salah satu arsitektur *transformer pre-trained* yang dilatih pada data teks Bahasa Indonesia. Model indoBERT dapat diunduh pada *website* HuggingFace.
 
-###### 1.3 Pelatihan Model
+#### **1.3 Pelatihan Model**
 Pada proses ini, data akan digunakan dan dipelajari representasinya oleh model yang telah dibuat. Pada tahap ini, digunakan dua (2) buah *subset* data yaitu data *train* dan data *validation*. Data *train* digunakan untuk pelatihan model sementara data *validation* digunakan untuk mengukur performa model pada data baru/belum pernah dilihat. Data *train* dan data *validation* dilakukan tokenisasi terlebih dahulu menggunakan *tokenizer* bawaan indoBERT sehingga menghasilkan tiga (3) buah nilai baru, yaitu `attention_mask`, `input_ids`, `token_type_ids`. Ketiga nilai ini kemudian akan digunakan dalam proses pelatihan model. Berikut merupakan *hyperparameter* yang digunakan saat pelatihan model.
 | No. | Hyperparameter | Nilai                           |
 |-----|----------------|---------------------------------|
@@ -798,6 +817,7 @@ Dari tabel perbandingan di atas, dapat dilihat bahwa model dengan performa terba
 ---
 
 <a id="alasan-model-unggul"></a>
+
 ## **Alasan Model BiLSTM Paling Unggul** [🔝](#daftar-isi)
 
 <details>
